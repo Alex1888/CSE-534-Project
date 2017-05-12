@@ -1,0 +1,481 @@
+base_latency
+  Los Angeles {Hong Kong 0.09}
+links
+- {dest 137, dest_name Hong Kong, max_delay 0.09899999999999999, min_delay 0.09,
+  src 169, src_name Los Angeles}
+- {dest 137, dest_name Hong Kong, max_delay 0.02197946590441512, min_delay 0.01998133264037738,
+  src 134, src_name Singapore}
+- {dest 137, dest_name Hong Kong, max_delay 0.024491937340699977, min_delay 0.022265397582454525,
+  src 140, src_name Tokyo}
+- {dest 140, dest_name Tokyo, max_delay 0.045182269059776056, min_delay 0.04107479005434187,
+  src 134, src_name Singapore}
+- {dest 149, dest_name San Jose, max_delay 0.07082018626712423, min_delay 0.06438198751556748,
+  src 140, src_name Tokyo}
+- {dest 146, dest_name Fremont, max_delay 0.00020944320149470966, min_delay 0.00019040291044973605,
+  src 149, src_name San Jose}
+- {dest 143, dest_name Palo Alto, max_delay 0.0002098538430130341, min_delay 0.0001907762209209401,
+  src 149, src_name San Jose}
+- {dest 143, dest_name Palo Alto, max_delay 0.00015330384758825228, min_delay 0.00013936713417113844,
+  src 146, src_name Fremont}
+- {dest 153, dest_name Portland, max_delay 0.007750976557599637, min_delay 0.007046342325090579,
+  src 149, src_name San Jose}
+- {dest 154, dest_name Seattle, max_delay 0.00970358928467878, min_delay 0.008821444804253438,
+  src 149, src_name San Jose}
+- {dest 154, dest_name Seattle, max_delay 0.001980189853586593, min_delay 0.0018001725941696302,
+  src 153, src_name Portland}
+- {dest 154, dest_name Seattle, max_delay 0.0016290555332783203, min_delay 0.0014809595757075639,
+  src 157, src_name Vancouver}
+- {dest 159, dest_name Denver, max_delay 0.013942438885259888, min_delay 0.012674944441145352,
+  src 154, src_name Seattle}
+- {dest 169, dest_name Los Angeles, max_delay 0.004379930992404047, min_delay 0.003981755447640042,
+  src 143, src_name Palo Alto}
+- {dest 165, dest_name Phoenix, max_delay 0.004878751961226585, min_delay 0.0044352290556605315,
+  src 169, src_name Los Angeles}
+- {dest 152, dest_name Las Vegas, max_delay 0.003127585787117664, min_delay 0.0028432598064706037,
+  src 169, src_name Los Angeles}
+- {dest 159, dest_name Denver, max_delay 0.008271265381124625, min_delay 0.00751933216465875,
+  src 152, src_name Las Vegas}
+- {dest 159, dest_name Denver, max_delay 0.012679134906052427, min_delay 0.01152648627822948,
+  src 149, src_name San Jose}
+- {dest 159, dest_name Denver, max_delay 0.009549009601746527, min_delay 0.00868091781976957,
+  src 158, src_name Minneapolis}
+- {dest 159, dest_name Denver, max_delay 0.00761386951297863, min_delay 0.0069216995572533,
+  src 162, src_name Kansas City}
+- {dest 166, dest_name Dallas, max_delay 0.012085544227624674, min_delay 0.010986858388749705,
+  src 165, src_name Phoenix}
+- {dest 166, dest_name Dallas, max_delay 0.019896482083487595, min_delay 0.018087710984988722,
+  src 146, src_name Fremont}
+- {dest 166, dest_name Dallas, max_delay 0.006205167979753415, min_delay 0.005641061799775832,
+  src 162, src_name Kansas City}
+- {dest 166, dest_name Dallas, max_delay 0.010971931036320862, min_delay 0.009974482760291692,
+  src 172, src_name Chicago}
+- {dest 166, dest_name Dallas, max_delay 0.01588028050776086, min_delay 0.014436618643418964,
+  src 187, src_name Ashburn}
+- {dest 166, dest_name Dallas, max_delay 0.009845557514101322, min_delay 0.008950506831001202,
+  src 175, src_name Atlanta}
+- {dest 166, dest_name Dallas, max_delay 0.015180864669691761, min_delay 0.013800786063356146,
+  src 178, src_name Miami}
+- {dest 178, dest_name Miami, max_delay 0.00827928825214428, min_delay 0.007526625683767528,
+  src 175, src_name Atlanta}
+- {dest 187, dest_name Ashburn, max_delay 0.007244818676274683, min_delay 0.006586198796613348,
+  src 175, src_name Atlanta}
+- {dest 162, dest_name Kansas City, max_delay 0.005613545439041082, min_delay 0.005103223126400984,
+  src 172, src_name Chicago}
+- {dest 184, dest_name New York, max_delay 0.009734695650495928, min_delay 0.008849723318632662,
+  src 172, src_name Chicago}
+- {dest 181, dest_name Toronto, max_delay 0.0059679334825478835, min_delay 0.0054253940750435305,
+  src 172, src_name Chicago}
+- {dest 158, dest_name Minneapolis, max_delay 0.004854188292269742, min_delay 0.004412898447517947,
+  src 172, src_name Chicago}
+- {dest 187, dest_name Ashburn, max_delay 0.0029763178724357656, min_delay 0.0027057435203961507,
+  src 184, src_name New York}
+- {dest 181, dest_name Toronto, max_delay 0.004719392909665924, min_delay 0.0042903571906053855,
+  src 184, src_name New York}
+- {dest 143, dest_name Palo Alto, max_delay 0.03499418206738756, min_delay 0.03181289278853414,
+  src 184, src_name New York}
+- {dest 149, dest_name San Jose, max_delay 0.03485362282421041, min_delay 0.0316851116583731,
+  src 184, src_name New York}
+- {dest 187, dest_name Ashburn, max_delay 0.03268078197594825, min_delay 0.02970980179631659,
+  src 149, src_name San Jose}
+- {dest 190, dest_name London, max_delay 0.04732289625262841, min_delay 0.04302081477511673,
+  src 184, src_name New York}
+- {dest 187, dest_name Ashburn, max_delay 0.050272198201872294, min_delay 0.04570199836533845,
+  src 190, src_name London}
+- {dest 207, dest_name Amsterdam, max_delay 0.049801303976444715, min_delay 0.04527391270585883,
+  src 184, src_name New York}
+- {dest 187, dest_name Ashburn, max_delay 0.052553436093461164, min_delay 0.0477758509940556,
+  src 193, src_name Paris}
+- {dest 190, dest_name London, max_delay 0.0029205763165338866, min_delay 0.0026550693786671696,
+  src 193, src_name Paris}
+- {dest 196, dest_name Zurich, max_delay 0.004154523412587286, min_delay 0.003776839465988442,
+  src 193, src_name Paris}
+- {dest 197, dest_name Frankfurt, max_delay 0.004065115464977358, min_delay 0.0036955595136157803,
+  src 193, src_name Paris}
+- {dest 207, dest_name Amsterdam, max_delay 0.003657458411802766, min_delay 0.003324962192547969,
+  src 193, src_name Paris}
+- {dest 207, dest_name Amsterdam, max_delay 0.0030323776775934013, min_delay 0.002756706979630365,
+  src 190, src_name London}
+- {dest 197, dest_name Frankfurt, max_delay 0.005416362162592938, min_delay 0.004923965602357217,
+  src 190, src_name London}
+- {dest 207, dest_name Amsterdam, max_delay 0.009561504025009172, min_delay 0.008692276386371975,
+  src 210, src_name Stockholm}
+- {dest 207, dest_name Amsterdam, max_delay 0.0049050665652040255, min_delay 0.0044591514229127506,
+  src 204, src_name Berlin}
+- {dest 207, dest_name Amsterdam, max_delay 0.0030944299935970203, min_delay 0.0028131181759972913,
+  src 197, src_name Frankfurt}
+- {dest 207, dest_name Amsterdam, max_delay 0.005227380278661229, min_delay 0.004752163889692026,
+  src 196, src_name Zurich}
+- {dest 200, dest_name Prague, max_delay 0.0034757563350856072, min_delay 0.003159778486441461,
+  src 197, src_name Frankfurt}
+- {dest 196, dest_name Zurich, max_delay 0.0025991945628872828, min_delay 0.002362904148079348,
+  src 197, src_name Frankfurt}
+- {dest 203, dest_name Warsaw, max_delay 0.004395690813733776, min_delay 0.0039960825579397966,
+  src 200, src_name Prague}
+- {dest 204, dest_name Berlin, max_delay 0.004390355474006233, min_delay 0.003991232249096576,
+  src 203, src_name Warsaw}
+- {dest 134, max_delay 9.799049692423672e-06, min_delay 8.908226993112429e-06,
+  src 135}
+- {dest 134, max_delay 9.094984798364234e-07, min_delay 8.26816799851294e-07, src 136}
+- {dest 135, max_delay 1.8595754892941261e-06, min_delay 1.6905231720855691e-06,
+  src 15}
+- {dest 136, max_delay 7.659262757827948e-06, min_delay 6.962966143479952e-06,
+  src 15}
+- {dest 135, max_delay 2.8270687190527885e-06, min_delay 2.5700624718661713e-06,
+  src 31}
+- {dest 136, max_delay 7.3924266212885135e-06, min_delay 6.720387837535012e-06,
+  src 31}
+- {dest 135, max_delay 5.712239998706934e-06, min_delay 5.19294545336994e-06, src 81}
+- {dest 136, max_delay 8.066044500717785e-06, min_delay 7.332767727925259e-06,
+  src 81}
+- {dest 135, max_delay 6.912772128834555e-06, min_delay 6.284338298940505e-06,
+  src 20}
+- {dest 136, max_delay 8.827783287696588e-06, min_delay 8.025257534269625e-06,
+  src 20}
+- {dest 135, max_delay 6.430185629003364e-06, min_delay 5.845623299093967e-06,
+  src 86}
+- {dest 136, max_delay 3.820569620305494e-06, min_delay 3.4732451093686314e-06,
+  src 86}
+- {dest 135, max_delay 1.9893396321239454e-06, min_delay 1.8084905746581324e-06,
+  src 100}
+- {dest 136, max_delay 6.979805864966122e-06, min_delay 6.345278059060111e-06,
+  src 100}
+- {dest 135, max_delay 4.3425440511954335e-06, min_delay 3.947767319268576e-06,
+  src 37}
+- {dest 136, max_delay 5.572051514589911e-06, min_delay 5.065501376899919e-06,
+  src 37}
+- {dest 135, max_delay 1.9114862083112933e-06, min_delay 1.7377147348284484e-06,
+  src 92}
+- {dest 136, max_delay 7.072763751534489e-06, min_delay 6.429785228667718e-06,
+  src 92}
+- {dest 137, max_delay 5.04412849382177e-06, min_delay 4.58557135801979e-06, src 138}
+- {dest 137, max_delay 7.636811293109395e-06, min_delay 6.942555721008541e-06,
+  src 139}
+- {dest 138, max_delay 2.693389537685279e-06, min_delay 2.4485359433502536e-06,
+  src 9}
+- {dest 139, max_delay 5.340762123522825e-06, min_delay 4.855238294111659e-06,
+  src 9}
+- {dest 138, max_delay 7.913183141804609e-06, min_delay 7.193802856186008e-06,
+  src 115}
+- {dest 139, max_delay 7.449677567281881e-06, min_delay 6.772434152074437e-06,
+  src 115}
+- {dest 138, max_delay 5.897909976606482e-06, min_delay 5.361736342369529e-06,
+  src 67}
+- {dest 139, max_delay 8.099295586886912e-06, min_delay 7.36299598807901e-06, src 67}
+- {dest 138, max_delay 4.433881519661114e-06, min_delay 4.030801381510104e-06,
+  src 82}
+- {dest 139, max_delay 4.723849020481241e-06, min_delay 4.294408200437492e-06,
+  src 82}
+- {dest 138, max_delay 7.913319639209781e-06, min_delay 7.193926944736165e-06,
+  src 18}
+- {dest 139, max_delay 9.878029322448221e-06, min_delay 8.98002665677111e-06, src 18}
+- {dest 138, max_delay 7.92875869863688e-06, min_delay 7.207962453306255e-06, src 85}
+- {dest 139, max_delay 7.887264552831303e-06, min_delay 7.1702405025739116e-06,
+  src 85}
+- {dest 138, max_delay 4.86536811012372e-06, min_delay 4.423061918294291e-06, src 61}
+- {dest 139, max_delay 4.57067062744682e-06, min_delay 4.155155115860745e-06, src 61}
+- {dest 138, max_delay 7.25491693450562e-06, min_delay 6.595379031368745e-06, src 105}
+- {dest 139, max_delay 6.572310601435871e-06, min_delay 5.974827819487155e-06,
+  src 105}
+- {dest 138, max_delay 5.4720599689619805e-06, min_delay 4.974599971783619e-06,
+  src 96}
+- {dest 139, max_delay 5.944367513293527e-06, min_delay 5.403970466630479e-06,
+  src 96}
+- {dest 138, max_delay 3.294711974293977e-06, min_delay 2.9951927039036156e-06,
+  src 56}
+- {dest 139, max_delay 3.109315335299775e-06, min_delay 2.8266503048179773e-06,
+  src 56}
+- {dest 140, max_delay 7.932768438794328e-06, min_delay 7.211607671631207e-06,
+  src 141}
+- {dest 140, max_delay 6.189732863223392e-06, min_delay 5.627029875657629e-06,
+  src 142}
+- {dest 141, max_delay 5.951508835758548e-06, min_delay 5.410462577962317e-06,
+  src 101}
+- {dest 142, max_delay 3.3463815788596704e-06, min_delay 3.0421650716906096e-06,
+  src 101}
+- {dest 141, max_delay 2.445500144639519e-06, min_delay 2.22318194967229e-06, src 13}
+- {dest 142, max_delay 5.485408211267898e-06, min_delay 4.986734737516271e-06,
+  src 13}
+- {dest 141, max_delay 3.6317577088617434e-06, min_delay 3.3015979171470392e-06,
+  src 63}
+- {dest 142, max_delay 3.7806509471941405e-06, min_delay 3.4369554065401276e-06,
+  src 63}
+- {dest 141, max_delay 2.392883389093414e-06, min_delay 2.1753485355394674e-06,
+  src 21}
+- {dest 142, max_delay 4.343176566347805e-06, min_delay 3.94834233304346e-06, src 21}
+- {dest 141, max_delay 6.3179134441382775e-06, min_delay 5.743557676489343e-06,
+  src 22}
+- {dest 142, max_delay 4.100415769477003e-06, min_delay 3.7276506995245483e-06,
+  src 22}
+- {dest 143, max_delay 5.696258763442828e-06, min_delay 5.1784170576752985e-06,
+  src 144}
+- {dest 143, max_delay 7.1352023529937085e-06, min_delay 6.486547593630644e-06,
+  src 145}
+- {dest 144, max_delay 3.7323148533159507e-06, min_delay 3.3930135030145007e-06,
+  src 2}
+- {dest 145, max_delay 1.3094403960122937e-06, min_delay 1.190400360011176e-06,
+  src 2}
+- {dest 144, max_delay 4.8133489191850075e-06, min_delay 4.3757717447136436e-06,
+  src 69}
+- {dest 145, max_delay 1.5878601968853111e-06, min_delay 1.4435092698957374e-06,
+  src 69}
+- {dest 144, max_delay 2.6100007924783757e-06, min_delay 2.3727279931621598e-06,
+  src 68}
+- {dest 145, max_delay 5.5919782749128116e-06, min_delay 5.083616613557101e-06,
+  src 68}
+- {dest 144, max_delay 2.1862084760055148e-06, min_delay 1.9874622509141045e-06,
+  src 120}
+- {dest 145, max_delay 6.10169603612545e-06, min_delay 5.546996396477681e-06, src 120}
+- {dest 144, max_delay 3.1876497561704898e-06, min_delay 2.8978634147004453e-06,
+  src 30}
+- {dest 145, max_delay 3.903564717982078e-06, min_delay 3.5486951981655252e-06,
+  src 30}
+- {dest 144, max_delay 3.2781449276715887e-06, min_delay 2.980131752428717e-06,
+  src 87}
+- {dest 145, max_delay 4.480011488153854e-06, min_delay 4.0727377165035035e-06,
+  src 87}
+- {dest 144, max_delay 9.812305987758164e-07, min_delay 8.92027817068924e-07, src 39}
+- {dest 145, max_delay 3.3663450792955912e-06, min_delay 3.0603137084505376e-06,
+  src 39}
+- {dest 144, max_delay 2.9776657373744635e-06, min_delay 2.7069688521586033e-06,
+  src 23}
+- {dest 145, max_delay 6.921662720419199e-06, min_delay 6.292420654926545e-06,
+  src 23}
+- {dest 144, max_delay 5.090503587824725e-06, min_delay 4.627730534386114e-06,
+  src 26}
+- {dest 145, max_delay 4.088035474702716e-06, min_delay 3.716395886093378e-06,
+  src 26}
+- {dest 144, max_delay 3.3340039027617534e-06, min_delay 3.0309126388743213e-06,
+  src 128}
+- {dest 145, max_delay 5.0603282060160205e-06, min_delay 4.6002983691054735e-06,
+  src 128}
+- {dest 144, max_delay 3.3763714424396744e-06, min_delay 3.0694285840360676e-06,
+  src 59}
+- {dest 145, max_delay 5.007962101345154e-06, min_delay 4.552692819404685e-06,
+  src 59}
+- {dest 144, max_delay 2.0462394419320973e-06, min_delay 1.860217674483725e-06,
+  src 95}
+- {dest 145, max_delay 3.493487148114205e-06, min_delay 3.17589740737655e-06, src 95}
+- {dest 144, max_delay 1.4212781563919514e-06, min_delay 1.2920710512654104e-06,
+  src 34}
+- {dest 145, max_delay 3.4765132465117744e-06, min_delay 3.1604665877379767e-06,
+  src 34}
+- {dest 144, max_delay 2.6329523187657958e-06, min_delay 2.3935930170598143e-06,
+  src 76}
+- {dest 145, max_delay 2.411437143288288e-06, min_delay 2.1922155848075347e-06,
+  src 76}
+- {dest 144, max_delay 6.7258728755206815e-06, min_delay 6.114429886836983e-06,
+  src 104}
+- {dest 145, max_delay 2.7586896681779935e-06, min_delay 2.5078996983436304e-06,
+  src 104}
+- {dest 146, max_delay 4.086673051911494e-06, min_delay 3.7151573199195397e-06,
+  src 147}
+- {dest 146, max_delay 4.121417208282847e-06, min_delay 3.74674291662077e-06, src 148}
+- {dest 147, max_delay 5.845826475401981e-06, min_delay 5.314387704910892e-06,
+  src 3}
+- {dest 148, max_delay 3.5947624728548063e-06, min_delay 3.2679658844134603e-06,
+  src 3}
+- {dest 147, max_delay 7.094998080226864e-06, min_delay 6.449998254751694e-06,
+  src 116}
+- {dest 148, max_delay 5.627958757287022e-06, min_delay 5.116326142988202e-06,
+  src 116}
+- {dest 147, max_delay 5.607410237667903e-06, min_delay 5.0976456706071845e-06,
+  src 73}
+- {dest 148, max_delay 5.566912077229388e-06, min_delay 5.060829161117626e-06,
+  src 73}
+- {dest 147, max_delay 9.74048997078929e-07, min_delay 8.854990882535717e-07, src 58}
+- {dest 148, max_delay 2.8318550121409135e-06, min_delay 2.5744136474008303e-06,
+  src 58}
+- {dest 147, max_delay 7.127144621423483e-06, min_delay 6.479222383112257e-06,
+  src 60}
+- {dest 148, max_delay 5.925479540749207e-06, min_delay 5.386799582499279e-06,
+  src 60}
+- {dest 147, max_delay 3.434762296191316e-06, min_delay 3.122511178355742e-06,
+  src 25}
+- {dest 148, max_delay 1.557886438463824e-06, min_delay 1.4162603986034765e-06,
+  src 25}
+- {dest 149, max_delay 9.542971037572956e-06, min_delay 8.675428215975414e-06,
+  src 150}
+- {dest 149, max_delay 1.0505995092686667e-05, min_delay 9.550904629715152e-06,
+  src 151}
+- {dest 150, max_delay 1.2742962306299165e-06, min_delay 1.1584511187544695e-06,
+  src 8}
+- {dest 151, max_delay 1.9698343061874775e-06, min_delay 1.790758460170434e-06,
+  src 8}
+- {dest 150, max_delay 4.4759920950301245e-06, min_delay 4.069083722754659e-06,
+  src 112}
+- {dest 151, max_delay 5.675038919326736e-06, min_delay 5.159126290297033e-06,
+  src 112}
+- {dest 150, max_delay 5.32634754165077e-06, min_delay 4.842134128773427e-06, src 75}
+- {dest 151, max_delay 6.25745350317165e-06, min_delay 5.688594093792409e-06, src 75}
+- {dest 150, max_delay 2.3397215389750537e-06, min_delay 2.1270195808864124e-06,
+  src 57}
+- {dest 151, max_delay 3.6241001533372692e-06, min_delay 3.294636503033881e-06,
+  src 57}
+- {dest 150, max_delay 6.054514379451463e-06, min_delay 5.504103981319511e-06,
+  src 45}
+- {dest 151, max_delay 6.687921728143137e-06, min_delay 6.0799288437664875e-06,
+  src 45}
+- {dest 150, max_delay 6.359916188840032e-06, min_delay 5.781741989854575e-06,
+  src 64}
+- {dest 151, max_delay 7.280073885121582e-06, min_delay 6.618248986474166e-06,
+  src 64}
+- {dest 150, max_delay 7.000744570507508e-06, min_delay 6.364313245915916e-06,
+  src 19}
+- {dest 151, max_delay 8.089565435818264e-06, min_delay 7.354150396198422e-06,
+  src 19}
+- {dest 150, max_delay 3.962041070936457e-06, min_delay 3.601855519033143e-06,
+  src 55}
+- {dest 151, max_delay 4.956505912339506e-06, min_delay 4.5059144657631875e-06,
+  src 55}
+- {dest 154, max_delay 4.374544885050728e-06, min_delay 3.976858986409753e-06,
+  src 155}
+- {dest 154, max_delay 7.293511799649914e-06, min_delay 6.630465272409012e-06,
+  src 156}
+- {dest 155, max_delay 3.3494221981904265e-06, min_delay 3.044929271082206e-06,
+  src 5}
+- {dest 156, max_delay 1.5630991674489232e-06, min_delay 1.4209992431353848e-06,
+  src 5}
+- {dest 155, max_delay 6.6348986261467346e-06, min_delay 6.031726023769758e-06,
+  src 114}
+- {dest 156, max_delay 3.832926621264332e-06, min_delay 3.4844787466039383e-06,
+  src 114}
+- {dest 155, max_delay 3.0578132382917365e-06, min_delay 2.779830216628851e-06,
+  src 52}
+- {dest 156, max_delay 5.267744318019286e-06, min_delay 4.788858470926623e-06,
+  src 52}
+- {dest 155, max_delay 5.429255534230863e-06, min_delay 4.935686849300784e-06,
+  src 54}
+- {dest 156, max_delay 2.9851290180771317e-06, min_delay 2.7137536527973923e-06,
+  src 54}
+- {dest 155, max_delay 9.693187419500032e-07, min_delay 8.811988563181848e-07,
+  src 78}
+- {dest 156, max_delay 5.309191588423977e-06, min_delay 4.826537807658161e-06,
+  src 78}
+- {dest 159, max_delay 6.548454708259983e-06, min_delay 5.9531406438727116e-06,
+  src 160}
+- {dest 159, max_delay 9.96719123165781e-06, min_delay 9.061082937870735e-06, src 161}
+- {dest 160, max_delay 2.1176861838982433e-06, min_delay 1.9251692580893123e-06,
+  src 83}
+- {dest 161, max_delay 3.6900196524161536e-06, min_delay 3.3545633203783213e-06,
+  src 83}
+- {dest 160, max_delay 2.8052040696560817e-06, min_delay 2.550185517869165e-06,
+  src 35}
+- {dest 161, max_delay 3.060374699355319e-06, min_delay 2.7821588175957448e-06,
+  src 35}
+- {dest 160, max_delay 3.827819285689853e-06, min_delay 3.4798357142635025e-06,
+  src 47}
+- {dest 161, max_delay 2.1741779173129496e-06, min_delay 1.9765253793754087e-06,
+  src 47}
+- {dest 160, max_delay 4.449885897768778e-06, min_delay 4.045350816153434e-06,
+  src 65}
+- {dest 161, max_delay 3.4017342603524963e-06, min_delay 3.092485691229542e-06,
+  src 65}
+- {dest 160, max_delay 1.5846306766884257e-06, min_delay 1.4405733424440234e-06,
+  src 130}
+- {dest 161, max_delay 5.041170375979185e-06, min_delay 4.5828821599810776e-06,
+  src 130}
+- {dest 162, max_delay 5.717790490922499e-06, min_delay 5.19799135538409e-06, src 163}
+- {dest 162, max_delay 1.3388395389970946e-06, min_delay 1.2171268536337224e-06,
+  src 164}
+- {dest 163, max_delay 2.390671905503409e-06, min_delay 2.17333809591219e-06, src 41}
+- {dest 164, max_delay 6.888684763476862e-06, min_delay 6.262440694069875e-06,
+  src 41}
+- {dest 166, max_delay 9.098388223007193e-06, min_delay 8.27126202091563e-06, src 167}
+- {dest 166, max_delay 5.4872679308628465e-06, min_delay 4.988425391693497e-06,
+  src 168}
+- {dest 167, max_delay 7.991753314884464e-06, min_delay 7.2652302862586045e-06,
+  src 46}
+- {dest 168, max_delay 3.630210632389974e-06, min_delay 3.3001914839908853e-06,
+  src 46}
+- {dest 167, max_delay 6.75342274149195e-06, min_delay 6.139475219538136e-06, src 117}
+- {dest 168, max_delay 1.536065578282201e-06, min_delay 1.396423252983819e-06,
+  src 117}
+- {dest 169, max_delay 3.804418622549031e-06, min_delay 3.4585623841354826e-06,
+  src 170}
+- {dest 169, max_delay 2.091394015284707e-06, min_delay 1.9012672866224606e-06,
+  src 171}
+- {dest 170, max_delay 2.3056555116198916e-06, min_delay 2.0960504651089923e-06,
+  src 66}
+- {dest 171, max_delay 4.065675809199189e-06, min_delay 3.696068917453808e-06,
+  src 66}
+- {dest 170, max_delay 8.770888303061162e-07, min_delay 7.973534820964692e-07,
+  src 119}
+- {dest 171, max_delay 2.6099178656593488e-06, min_delay 2.3726526051448626e-06,
+  src 119}
+- {dest 170, max_delay 1.0984780247434377e-06, min_delay 9.98616386130398e-07,
+  src 29}
+- {dest 171, max_delay 2.096969357367412e-06, min_delay 1.9063357794249202e-06,
+  src 29}
+- {dest 170, max_delay 1.4264078629533169e-06, min_delay 1.2967344208666516e-06,
+  src 84}
+- {dest 171, max_delay 1.0013762657656778e-06, min_delay 9.103420597869799e-07,
+  src 84}
+- {dest 170, max_delay 3.1793024970879786e-06, min_delay 2.890274997352708e-06,
+  src 99}
+- {dest 171, max_delay 4.438902788263807e-06, min_delay 4.035366171148916e-06,
+  src 99}
+- {dest 170, max_delay 3.6088047133501627e-06, min_delay 3.280731557591057e-06,
+  src 124}
+- {dest 171, max_delay 5.348603258394187e-06, min_delay 4.862366598540169e-06,
+  src 124}
+- {dest 170, max_delay 5.702964990446519e-06, min_delay 5.1845136276786535e-06,
+  src 91}
+- {dest 171, max_delay 6.290853946455168e-06, min_delay 5.718958133141062e-06,
+  src 91}
+- {dest 170, max_delay 2.097211790182456e-06, min_delay 1.906556172893142e-06,
+  src 72}
+- {dest 171, max_delay 3.6480677505417775e-06, min_delay 3.316425227765252e-06,
+  src 72}
+- {dest 170, max_delay 3.306438307648456e-06, min_delay 3.005853006953142e-06,
+  src 79}
+- {dest 171, max_delay 4.985301281644046e-06, min_delay 4.53209207422186e-06, src 79}
+- {dest 172, max_delay 1.6121523707000463e-06, min_delay 1.4655930642727694e-06,
+  src 173}
+- {dest 172, max_delay 7.021832536411715e-07, min_delay 6.38348412401065e-07, src 174}
+- {dest 173, max_delay 8.885543912292325e-06, min_delay 8.077767192993024e-06,
+  src 10}
+- {dest 174, max_delay 9.874247685996163e-06, min_delay 8.976588805451057e-06,
+  src 10}
+- {dest 173, max_delay 1.3452265425875927e-06, min_delay 1.2229332205341752e-06,
+  src 38}
+- {dest 174, max_delay 2.133098183242521e-06, min_delay 1.93918016658411e-06, src 38}
+- {dest 173, max_delay 6.013130748431677e-06, min_delay 5.466482498574252e-06,
+  src 118}
+- {dest 174, max_delay 6.522379440788595e-06, min_delay 5.929435855262359e-06,
+  src 118}
+- {dest 175, max_delay 1.0178409670131883e-05, min_delay 9.253099700119894e-06,
+  src 176}
+- {dest 175, max_delay 3.4339590901488166e-06, min_delay 3.1217809910443787e-06,
+  src 177}
+- {dest 176, max_delay 4.920910585403915e-06, min_delay 4.473555077639923e-06,
+  src 7}
+- {dest 177, max_delay 3.6297518782974323e-06, min_delay 3.2997744348158477e-06,
+  src 7}
+- {dest 176, max_delay 1.5378602021865962e-06, min_delay 1.398054729260542e-06,
+  src 50}
+- {dest 177, max_delay 5.312435266172482e-06, min_delay 4.829486605611347e-06,
+  src 50}
+- {dest 176, max_delay 5.3957062870244796e-06, min_delay 4.905187533658618e-06,
+  src 121}
+- {dest 177, max_delay 6.979585741445651e-06, min_delay 6.345077946768774e-06,
+  src 121}
+- {dest 178, max_delay 2.12958411667731e-06, min_delay 1.935985560615736e-06, src 179}
+- {dest 178, max_delay 8.52471074475297e-06, min_delay 7.749737040684518e-06, src 180}
+- {dest 179, max_delay 4.1997271120025105e-06, min_delay 3.817933738184101e-06,
+  src 11}
+- {dest 180, max_delay 2.973895131722615e-06, min_delay 2.703541028838741e-06,
+  src 11}
+- {dest 179, max_delay 2.3573216604854084e-06, min_delay 2.1430196913503714e-06,
+  src 42}
+- {dest 180, max_delay 4.40351840732838e-06, min_delay 4.003198552116709e-06, src 42}
+- {dest 179, max_delay 1.397273108670534e-06, min_delay 1.2702482806095763e-06,
+  src 113}
+- {dest 180, max_delay 8.128274153034937e-06, min_delay 7.3893401391226704e-06,
+  src 113}
+- {dest 179, max_delay 6.365189247421396e-06, min_delay 5.786535679473996e-06,
+  src 127}
+- {dest 180, max_delay 2.0563910782168383e-06, min_delay 1.8694464347425804e-06,
+  src 127}
+- {dest 181, max_delay 5.83015674816191e-06, min_delay 5.30014249832901e-06, src 182}
+- {dest 181, max_delay 4.653190125983605e-06, min_delay 4.2301728418032776e-06,
+  src

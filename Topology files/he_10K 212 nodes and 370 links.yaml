@@ -1,0 +1,241 @@
+base_latency:
+  Los Angeles: {Hong Kong: 0.09}
+links:
+- {dest: 137, dest_name: Hong Kong, max_delay: 0.09899999999999999, min_delay: 0.09,
+  src: 169, src_name: Los Angeles}
+- {dest: 137, dest_name: Hong Kong, max_delay: 0.02197946590441512, min_delay: 0.01998133264037738,
+  src: 134, src_name: Singapore}
+- {dest: 137, dest_name: Hong Kong, max_delay: 0.024491937340699977, min_delay: 0.022265397582454525,
+  src: 140, src_name: Tokyo}
+- {dest: 140, dest_name: Tokyo, max_delay: 0.045182269059776056, min_delay: 0.04107479005434187,
+  src: 134, src_name: Singapore}
+- {dest: 149, dest_name: San Jose, max_delay: 0.07082018626712423, min_delay: 0.06438198751556748,
+  src: 140, src_name: Tokyo}
+- {dest: 146, dest_name: Fremont, max_delay: 0.00020944320149470966, min_delay: 0.00019040291044973605,
+  src: 149, src_name: San Jose}
+- {dest: 143, dest_name: Palo Alto, max_delay: 0.0002098538430130341, min_delay: 0.0001907762209209401,
+  src: 149, src_name: San Jose}
+- {dest: 143, dest_name: Palo Alto, max_delay: 0.00015330384758825228, min_delay: 0.00013936713417113844,
+  src: 146, src_name: Fremont}
+- {dest: 153, dest_name: Portland, max_delay: 0.007750976557599637, min_delay: 0.007046342325090579,
+  src: 149, src_name: San Jose}
+- {dest: 154, dest_name: Seattle, max_delay: 0.00970358928467878, min_delay: 0.008821444804253438,
+  src: 149, src_name: San Jose}
+- {dest: 154, dest_name: Seattle, max_delay: 0.001980189853586593, min_delay: 0.0018001725941696302,
+  src: 153, src_name: Portland}
+- {dest: 154, dest_name: Seattle, max_delay: 0.0016290555332783203, min_delay: 0.0014809595757075639,
+  src: 157, src_name: Vancouver}
+- {dest: 159, dest_name: Denver, max_delay: 0.013942438885259888, min_delay: 0.012674944441145352,
+  src: 154, src_name: Seattle}
+- {dest: 169, dest_name: Los Angeles, max_delay: 0.004379930992404047, min_delay: 0.003981755447640042,
+  src: 143, src_name: Palo Alto}
+- {dest: 165, dest_name: Phoenix, max_delay: 0.004878751961226585, min_delay: 0.0044352290556605315,
+  src: 169, src_name: Los Angeles}
+- {dest: 152, dest_name: Las Vegas, max_delay: 0.003127585787117664, min_delay: 0.0028432598064706037,
+  src: 169, src_name: Los Angeles}
+- {dest: 159, dest_name: Denver, max_delay: 0.008271265381124625, min_delay: 0.00751933216465875,
+  src: 152, src_name: Las Vegas}
+- {dest: 159, dest_name: Denver, max_delay: 0.012679134906052427, min_delay: 0.01152648627822948,
+  src: 149, src_name: San Jose}
+- {dest: 159, dest_name: Denver, max_delay: 0.009549009601746527, min_delay: 0.00868091781976957,
+  src: 158, src_name: Minneapolis}
+- {dest: 159, dest_name: Denver, max_delay: 0.00761386951297863, min_delay: 0.0069216995572533,
+  src: 162, src_name: Kansas City}
+- {dest: 166, dest_name: Dallas, max_delay: 0.012085544227624674, min_delay: 0.010986858388749705,
+  src: 165, src_name: Phoenix}
+- {dest: 166, dest_name: Dallas, max_delay: 0.019896482083487595, min_delay: 0.018087710984988722,
+  src: 146, src_name: Fremont}
+- {dest: 166, dest_name: Dallas, max_delay: 0.006205167979753415, min_delay: 0.005641061799775832,
+  src: 162, src_name: Kansas City}
+- {dest: 166, dest_name: Dallas, max_delay: 0.010971931036320862, min_delay: 0.009974482760291692,
+  src: 172, src_name: Chicago}
+- {dest: 166, dest_name: Dallas, max_delay: 0.01588028050776086, min_delay: 0.014436618643418964,
+  src: 187, src_name: Ashburn}
+- {dest: 166, dest_name: Dallas, max_delay: 0.009845557514101322, min_delay: 0.008950506831001202,
+  src: 175, src_name: Atlanta}
+- {dest: 166, dest_name: Dallas, max_delay: 0.015180864669691761, min_delay: 0.013800786063356146,
+  src: 178, src_name: Miami}
+- {dest: 178, dest_name: Miami, max_delay: 0.00827928825214428, min_delay: 0.007526625683767528,
+  src: 175, src_name: Atlanta}
+- {dest: 187, dest_name: Ashburn, max_delay: 0.007244818676274683, min_delay: 0.006586198796613348,
+  src: 175, src_name: Atlanta}
+- {dest: 162, dest_name: Kansas City, max_delay: 0.005613545439041082, min_delay: 0.005103223126400984,
+  src: 172, src_name: Chicago}
+- {dest: 184, dest_name: New York, max_delay: 0.009734695650495928, min_delay: 0.008849723318632662,
+  src: 172, src_name: Chicago}
+- {dest: 181, dest_name: Toronto, max_delay: 0.0059679334825478835, min_delay: 0.0054253940750435305,
+  src: 172, src_name: Chicago}
+- {dest: 158, dest_name: Minneapolis, max_delay: 0.004854188292269742, min_delay: 0.004412898447517947,
+  src: 172, src_name: Chicago}
+- {dest: 187, dest_name: Ashburn, max_delay: 0.0029763178724357656, min_delay: 0.0027057435203961507,
+  src: 184, src_name: New York}
+- {dest: 181, dest_name: Toronto, max_delay: 0.004719392909665924, min_delay: 0.0042903571906053855,
+  src: 184, src_name: New York}
+- {dest: 143, dest_name: Palo Alto, max_delay: 0.03499418206738756, min_delay: 0.03181289278853414,
+  src: 184, src_name: New York}
+- {dest: 149, dest_name: San Jose, max_delay: 0.03485362282421041, min_delay: 0.0316851116583731,
+  src: 184, src_name: New York}
+- {dest: 187, dest_name: Ashburn, max_delay: 0.03268078197594825, min_delay: 0.02970980179631659,
+  src: 149, src_name: San Jose}
+- {dest: 190, dest_name: London, max_delay: 0.04732289625262841, min_delay: 0.04302081477511673,
+  src: 184, src_name: New York}
+- {dest: 187, dest_name: Ashburn, max_delay: 0.050272198201872294, min_delay: 0.04570199836533845,
+  src: 190, src_name: London}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.049801303976444715, min_delay: 0.04527391270585883,
+  src: 184, src_name: New York}
+- {dest: 187, dest_name: Ashburn, max_delay: 0.052553436093461164, min_delay: 0.0477758509940556,
+  src: 193, src_name: Paris}
+- {dest: 190, dest_name: London, max_delay: 0.0029205763165338866, min_delay: 0.0026550693786671696,
+  src: 193, src_name: Paris}
+- {dest: 196, dest_name: Zurich, max_delay: 0.004154523412587286, min_delay: 0.003776839465988442,
+  src: 193, src_name: Paris}
+- {dest: 197, dest_name: Frankfurt, max_delay: 0.004065115464977358, min_delay: 0.0036955595136157803,
+  src: 193, src_name: Paris}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.003657458411802766, min_delay: 0.003324962192547969,
+  src: 193, src_name: Paris}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.0030323776775934013, min_delay: 0.002756706979630365,
+  src: 190, src_name: London}
+- {dest: 197, dest_name: Frankfurt, max_delay: 0.005416362162592938, min_delay: 0.004923965602357217,
+  src: 190, src_name: London}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.009561504025009172, min_delay: 0.008692276386371975,
+  src: 210, src_name: Stockholm}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.0049050665652040255, min_delay: 0.0044591514229127506,
+  src: 204, src_name: Berlin}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.0030944299935970203, min_delay: 0.0028131181759972913,
+  src: 197, src_name: Frankfurt}
+- {dest: 207, dest_name: Amsterdam, max_delay: 0.005227380278661229, min_delay: 0.004752163889692026,
+  src: 196, src_name: Zurich}
+- {dest: 200, dest_name: Prague, max_delay: 0.0034757563350856072, min_delay: 0.003159778486441461,
+  src: 197, src_name: Frankfurt}
+- {dest: 196, dest_name: Zurich, max_delay: 0.0025991945628872828, min_delay: 0.002362904148079348,
+  src: 197, src_name: Frankfurt}
+- {dest: 203, dest_name: Warsaw, max_delay: 0.004395690813733776, min_delay: 0.0039960825579397966,
+  src: 200, src_name: Prague}
+- {dest: 204, dest_name: Berlin, max_delay: 0.004390355474006233, min_delay: 0.003991232249096576,
+  src: 203, src_name: Warsaw}
+- {dest: 134, max_delay: 1.1740878435986352e-06, min_delay: 1.0673525850896684e-06,
+  src: 135}
+- {dest: 134, max_delay: 5.209112745527274e-06, min_delay: 4.735557041388431e-06,
+  src: 136}
+- {dest: 135, max_delay: 4.434090698041471e-06, min_delay: 4.030991543674065e-06,
+  src: 15}
+- {dest: 136, max_delay: 4.742696715057427e-06, min_delay: 4.311542468234025e-06,
+  src: 15}
+- {dest: 135, max_delay: 7.146003495206378e-06, min_delay: 6.49636681382398e-06, src: 31}
+- {dest: 136, max_delay: 2.92301732084031e-06, min_delay: 2.657288473491191e-06, src: 31}
+- {dest: 135, max_delay: 4.307981568351063e-06, min_delay: 3.916346880319148e-06,
+  src: 81}
+- {dest: 136, max_delay: 1.4303808067659873e-06, min_delay: 1.3003461879690794e-06,
+  src: 81}
+- {dest: 135, max_delay: 8.797968420905502e-06, min_delay: 7.998153109914093e-06,
+  src: 20}
+- {dest: 136, max_delay: 5.414502430557461e-06, min_delay: 4.9222749368704195e-06,
+  src: 20}
+- {dest: 135, max_delay: 9.4596622835756e-06, min_delay: 8.599692985068728e-06, src: 86}
+- {dest: 136, max_delay: 5.405582836507268e-06, min_delay: 4.914166215006607e-06,
+  src: 86}
+- {dest: 135, max_delay: 1.1258340431723523e-05, min_delay: 1.0234854937930475e-05,
+  src: 100}
+- {dest: 136, max_delay: 7.0922978122003e-06, min_delay: 6.447543465636637e-06, src: 100}
+- {dest: 135, max_delay: 7.052871926756365e-06, min_delay: 6.411701751596695e-06,
+  src: 37}
+- {dest: 136, max_delay: 2.780127161923625e-06, min_delay: 2.5273883290214774e-06,
+  src: 37}
+- {dest: 135, max_delay: 8.109625143216417e-06, min_delay: 7.372386493833106e-06,
+  src: 92}
+- {dest: 136, max_delay: 3.748665064332873e-06, min_delay: 3.407877331211703e-06,
+  src: 92}
+- {dest: 137, max_delay: 4.276773218285369e-06, min_delay: 3.8879756529866994e-06,
+  src: 138}
+- {dest: 137, max_delay: 9.158336922438355e-06, min_delay: 8.325760838580322e-06,
+  src: 139}
+- {dest: 138, max_delay: 2.271438547934708e-06, min_delay: 2.0649441344860984e-06,
+  src: 9}
+- {dest: 139, max_delay: 5.487162018548554e-06, min_delay: 4.988329107771412e-06,
+  src: 9}
+- {dest: 138, max_delay: 3.021217623749577e-06, min_delay: 2.7465614761359794e-06,
+  src: 115}
+- {dest: 139, max_delay: 4.113571250033615e-06, min_delay: 3.7396102273032866e-06,
+  src: 115}
+- {dest: 138, max_delay: 8.608309312044466e-06, min_delay: 7.825735738222242e-06,
+  src: 67}
+- {dest: 139, max_delay: 6.761871541866006e-06, min_delay: 6.147155947150915e-06,
+  src: 67}
+- {dest: 138, max_delay: 3.8133057960852973e-06, min_delay: 3.4666416328048158e-06,
+  src: 82}
+- {dest: 139, max_delay: 6.529561813969624e-06, min_delay: 5.935965285426931e-06,
+  src: 82}
+- {dest: 138, max_delay: 7.4259895102410385e-06, min_delay: 6.75089955476458e-06,
+  src: 18}
+- {dest: 139, max_delay: 5.798950328230068e-06, min_delay: 5.271773025663698e-06,
+  src: 18}
+- {dest: 138, max_delay: 7.602194309235568e-06, min_delay: 6.911085735668698e-06,
+  src: 85}
+- {dest: 139, max_delay: 7.366934535622047e-06, min_delay: 6.6972132142018605e-06,
+  src: 85}
+- {dest: 138, max_delay: 3.076027361746132e-06, min_delay: 2.796388510678302e-06,
+  src: 61}
+- {dest: 139, max_delay: 7.299824697157592e-06, min_delay: 6.636204270143266e-06,
+  src: 61}
+- {dest: 138, max_delay: 4.580750823715774e-06, min_delay: 4.164318930650703e-06,
+  src: 105}
+- {dest: 139, max_delay: 3.2874114893355027e-06, min_delay: 2.9885558993959115e-06,
+  src: 105}
+- {dest: 138, max_delay: 4.2145475710639365e-06, min_delay: 3.8314068827853965e-06,
+  src: 96}
+- {dest: 139, max_delay: 3.500813132891684e-06, min_delay: 3.1825573935378945e-06,
+  src: 96}
+- {dest: 138, max_delay: 7.502906281953705e-06, min_delay: 6.820823892685186e-06,
+  src: 56}
+- {dest: 139, max_delay: 4.797494823978057e-06, min_delay: 4.3613589308891425e-06,
+  src: 56}
+- {dest: 140, max_delay: 6.2997924025890415e-06, min_delay: 5.727084002353674e-06,
+  src: 141}
+- {dest: 140, max_delay: 4.0904355667382675e-06, min_delay: 3.7185777879438796e-06,
+  src: 142}
+- {dest: 141, max_delay: 3.684385712850848e-06, min_delay: 3.3494415571371346e-06,
+  src: 101}
+- {dest: 142, max_delay: 9.138373553994567e-07, min_delay: 8.307612321813243e-07,
+  src: 101}
+- {dest: 141, max_delay: 1.809056573801612e-06, min_delay: 1.6445968852741927e-06,
+  src: 13}
+- {dest: 142, max_delay: 2.6881764558027143e-06, min_delay: 2.4437967780024676e-06,
+  src: 13}
+- {dest: 141, max_delay: 4.674503910240699e-06, min_delay: 4.249549009309726e-06,
+  src: 63}
+- {dest: 142, max_delay: 6.365585746586562e-06, min_delay: 5.786896133260511e-06,
+  src: 63}
+- {dest: 141, max_delay: 6.353680391636631e-06, min_delay: 5.776073083306028e-06,
+  src: 21}
+- {dest: 142, max_delay: 7.360223759147128e-06, min_delay: 6.691112508315571e-06,
+  src: 21}
+- {dest: 141, max_delay: 2.9886237072777224e-06, min_delay: 2.7169306429797475e-06,
+  src: 22}
+- {dest: 142, max_delay: 2.172345208012277e-06, min_delay: 1.974859280011161e-06,
+  src: 22}
+- {dest: 143, max_delay: 1.0434088695275446e-05, min_delay: 9.485535177523132e-06,
+  src: 144}
+- {dest: 143, max_delay: 3.612124156002397e-06, min_delay: 3.283749232729452e-06,
+  src: 145}
+- {dest: 144, max_delay: 5.491978962173155e-06, min_delay: 4.992708147430142e-06,
+  src: 2}
+- {dest: 145, max_delay: 8.471027264236872e-06, min_delay: 7.700933876578976e-06,
+  src: 2}
+- {dest: 144, max_delay: 3.009110491959016e-06, min_delay: 2.7355549926900145e-06,
+  src: 69}
+- {dest: 145, max_delay: 5.7718831773205884e-06, min_delay: 5.247166524836899e-06,
+  src: 69}
+- {dest: 144, max_delay: 3.029236816991019e-06, min_delay: 2.7538516518100172e-06,
+  src: 68}
+- {dest: 145, max_delay: 6.590468516208719e-06, min_delay: 5.991335014735199e-06,
+  src: 68}
+- {dest: 144, max_delay: 2.756776961846141e-06, min_delay: 2.5061608744055827e-06,
+  src: 120}
+- {dest: 145, max_delay: 7.064380541616467e-06, min_delay: 6.422164128742243e-06,
+  src: 120}
+- {dest: 144, max_delay: 5.57289430210959e-06, min_delay: 5.066267547372355e-06, src: 30}
+- {dest: 145, max_delay: 3.4559832159305777e-06, min_delay: 3.1418029235732527e-06,
+  src: 30}
+- {dest: 144, max_delay: 3.927454270228243e-06, min_delay: 3.570412972934766e-06,
+  src: 87}
+- {dest: 145

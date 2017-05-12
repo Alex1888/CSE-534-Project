@@ -1,0 +1,810 @@
+base_latency:
+  Los Angeles: {Hong Kong: 0.09}
+links:
+- {dest: 4715, dest_name: Hong Kong, max_delay: 0.09899999999999999, min_delay: 0.09,
+  src: 4755, src_name: Los Angeles}
+- {dest: 4715, dest_name: Hong Kong, max_delay: 0.02197946590441512, min_delay: 0.01998133264037738,
+  src: 4712, src_name: Singapore}
+- {dest: 4715, dest_name: Hong Kong, max_delay: 0.024491937340699977, min_delay: 0.022265397582454525,
+  src: 4718, src_name: Tokyo}
+- {dest: 4718, dest_name: Tokyo, max_delay: 0.045182269059776056, min_delay: 0.04107479005434187,
+  src: 4712, src_name: Singapore}
+- {dest: 4727, dest_name: San Jose, max_delay: 0.07082018626712423, min_delay: 0.06438198751556748,
+  src: 4718, src_name: Tokyo}
+- {dest: 4724, dest_name: Fremont, max_delay: 0.00020944320149470966, min_delay: 0.00019040291044973605,
+  src: 4727, src_name: San Jose}
+- {dest: 4721, dest_name: Palo Alto, max_delay: 0.0002098538430130341, min_delay: 0.0001907762209209401,
+  src: 4727, src_name: San Jose}
+- {dest: 4721, dest_name: Palo Alto, max_delay: 0.00015330384758825228, min_delay: 0.00013936713417113844,
+  src: 4724, src_name: Fremont}
+- {dest: 4731, dest_name: Portland, max_delay: 0.007750976557599637, min_delay: 0.007046342325090579,
+  src: 4727, src_name: San Jose}
+- {dest: 4734, dest_name: Seattle, max_delay: 0.00970358928467878, min_delay: 0.008821444804253438,
+  src: 4727, src_name: San Jose}
+- {dest: 4734, dest_name: Seattle, max_delay: 0.001980189853586593, min_delay: 0.0018001725941696302,
+  src: 4731, src_name: Portland}
+- {dest: 4734, dest_name: Seattle, max_delay: 0.0016290555332783203, min_delay: 0.0014809595757075639,
+  src: 4737, src_name: Vancouver}
+- {dest: 4743, dest_name: Denver, max_delay: 0.013942438885259888, min_delay: 0.012674944441145352,
+  src: 4734, src_name: Seattle}
+- {dest: 4755, dest_name: Los Angeles, max_delay: 0.004379930992404047, min_delay: 0.003981755447640042,
+  src: 4721, src_name: Palo Alto}
+- {dest: 4749, dest_name: Phoenix, max_delay: 0.004878751961226585, min_delay: 0.0044352290556605315,
+  src: 4755, src_name: Los Angeles}
+- {dest: 4730, dest_name: Las Vegas, max_delay: 0.003127585787117664, min_delay: 0.0028432598064706037,
+  src: 4755, src_name: Los Angeles}
+- {dest: 4743, dest_name: Denver, max_delay: 0.008271265381124625, min_delay: 0.00751933216465875,
+  src: 4730, src_name: Las Vegas}
+- {dest: 4743, dest_name: Denver, max_delay: 0.012679134906052427, min_delay: 0.01152648627822948,
+  src: 4727, src_name: San Jose}
+- {dest: 4743, dest_name: Denver, max_delay: 0.009549009601746527, min_delay: 0.00868091781976957,
+  src: 4740, src_name: Minneapolis}
+- {dest: 4743, dest_name: Denver, max_delay: 0.00761386951297863, min_delay: 0.0069216995572533,
+  src: 4746, src_name: Kansas City}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.012085544227624674, min_delay: 0.010986858388749705,
+  src: 4749, src_name: Phoenix}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.019896482083487595, min_delay: 0.018087710984988722,
+  src: 4724, src_name: Fremont}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.006205167979753415, min_delay: 0.005641061799775832,
+  src: 4746, src_name: Kansas City}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.010971931036320862, min_delay: 0.009974482760291692,
+  src: 4758, src_name: Chicago}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.01588028050776086, min_delay: 0.014436618643418964,
+  src: 4773, src_name: Ashburn}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.009845557514101322, min_delay: 0.008950506831001202,
+  src: 4761, src_name: Atlanta}
+- {dest: 4752, dest_name: Dallas, max_delay: 0.015180864669691761, min_delay: 0.013800786063356146,
+  src: 4764, src_name: Miami}
+- {dest: 4764, dest_name: Miami, max_delay: 0.00827928825214428, min_delay: 0.007526625683767528,
+  src: 4761, src_name: Atlanta}
+- {dest: 4773, dest_name: Ashburn, max_delay: 0.007244818676274683, min_delay: 0.006586198796613348,
+  src: 4761, src_name: Atlanta}
+- {dest: 4746, dest_name: Kansas City, max_delay: 0.005613545439041082, min_delay: 0.005103223126400984,
+  src: 4758, src_name: Chicago}
+- {dest: 4770, dest_name: New York, max_delay: 0.009734695650495928, min_delay: 0.008849723318632662,
+  src: 4758, src_name: Chicago}
+- {dest: 4767, dest_name: Toronto, max_delay: 0.0059679334825478835, min_delay: 0.0054253940750435305,
+  src: 4758, src_name: Chicago}
+- {dest: 4740, dest_name: Minneapolis, max_delay: 0.004854188292269742, min_delay: 0.004412898447517947,
+  src: 4758, src_name: Chicago}
+- {dest: 4773, dest_name: Ashburn, max_delay: 0.0029763178724357656, min_delay: 0.0027057435203961507,
+  src: 4770, src_name: New York}
+- {dest: 4767, dest_name: Toronto, max_delay: 0.004719392909665924, min_delay: 0.0042903571906053855,
+  src: 4770, src_name: New York}
+- {dest: 4721, dest_name: Palo Alto, max_delay: 0.03499418206738756, min_delay: 0.03181289278853414,
+  src: 4770, src_name: New York}
+- {dest: 4727, dest_name: San Jose, max_delay: 0.03485362282421041, min_delay: 0.0316851116583731,
+  src: 4770, src_name: New York}
+- {dest: 4773, dest_name: Ashburn, max_delay: 0.03268078197594825, min_delay: 0.02970980179631659,
+  src: 4727, src_name: San Jose}
+- {dest: 4776, dest_name: London, max_delay: 0.04732289625262841, min_delay: 0.04302081477511673,
+  src: 4770, src_name: New York}
+- {dest: 4773, dest_name: Ashburn, max_delay: 0.050272198201872294, min_delay: 0.04570199836533845,
+  src: 4776, src_name: London}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.049801303976444715, min_delay: 0.04527391270585883,
+  src: 4770, src_name: New York}
+- {dest: 4773, dest_name: Ashburn, max_delay: 0.052553436093461164, min_delay: 0.0477758509940556,
+  src: 4779, src_name: Paris}
+- {dest: 4776, dest_name: London, max_delay: 0.0029205763165338866, min_delay: 0.0026550693786671696,
+  src: 4779, src_name: Paris}
+- {dest: 4782, dest_name: Zurich, max_delay: 0.004154523412587286, min_delay: 0.003776839465988442,
+  src: 4779, src_name: Paris}
+- {dest: 4785, dest_name: Frankfurt, max_delay: 0.004065115464977358, min_delay: 0.0036955595136157803,
+  src: 4779, src_name: Paris}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.003657458411802766, min_delay: 0.003324962192547969,
+  src: 4779, src_name: Paris}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.0030323776775934013, min_delay: 0.002756706979630365,
+  src: 4776, src_name: London}
+- {dest: 4785, dest_name: Frankfurt, max_delay: 0.005416362162592938, min_delay: 0.004923965602357217,
+  src: 4776, src_name: London}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.009561504025009172, min_delay: 0.008692276386371975,
+  src: 4800, src_name: Stockholm}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.0049050665652040255, min_delay: 0.0044591514229127506,
+  src: 4794, src_name: Berlin}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.0030944299935970203, min_delay: 0.0028131181759972913,
+  src: 4785, src_name: Frankfurt}
+- {dest: 4797, dest_name: Amsterdam, max_delay: 0.005227380278661229, min_delay: 0.004752163889692026,
+  src: 4782, src_name: Zurich}
+- {dest: 4788, dest_name: Prague, max_delay: 0.0034757563350856072, min_delay: 0.003159778486441461,
+  src: 4785, src_name: Frankfurt}
+- {dest: 4782, dest_name: Zurich, max_delay: 0.0025991945628872828, min_delay: 0.002362904148079348,
+  src: 4785, src_name: Frankfurt}
+- {dest: 4791, dest_name: Warsaw, max_delay: 0.004395690813733776, min_delay: 0.0039960825579397966,
+  src: 4788, src_name: Prague}
+- {dest: 4794, dest_name: Berlin, max_delay: 0.004390355474006233, min_delay: 0.003991232249096576,
+  src: 4791, src_name: Warsaw}
+- {dest: 4712, max_delay: 4.328683317149617e-06, min_delay: 3.935166651954197e-06,
+  src: 4713}
+- {dest: 4712, max_delay: 4.4237539945686095e-06, min_delay: 4.021594540516918e-06,
+  src: 4714}
+- {dest: 4713, max_delay: 5.606016009942157e-06, min_delay: 5.096378190856506e-06,
+  src: 3929}
+- {dest: 4714, max_delay: 2.98135784253558e-06, min_delay: 2.7103253113959817e-06,
+  src: 3929}
+- {dest: 4713, max_delay: 3.1748292295834483e-06, min_delay: 2.8862083905304075e-06,
+  src: 3947}
+- {dest: 4714, max_delay: 8.403536743109486e-07, min_delay: 7.63957885737226e-07,
+  src: 3947}
+- {dest: 4713, max_delay: 7.043384824729166e-06, min_delay: 6.403077113390151e-06,
+  src: 1199}
+- {dest: 4714, max_delay: 3.7371766634888284e-06, min_delay: 3.3974333304443893e-06,
+  src: 1199}
+- {dest: 4713, max_delay: 9.850484755736883e-07, min_delay: 8.954986141578984e-07,
+  src: 3867}
+- {dest: 4714, max_delay: 3.1592864030128024e-06, min_delay: 2.8720785481934565e-06,
+  src: 3867}
+- {dest: 4713, max_delay: 5.026036902235068e-06, min_delay: 4.569124456577334e-06,
+  src: 1201}
+- {dest: 4714, max_delay: 5.407294270564498e-06, min_delay: 4.9157220641495435e-06,
+  src: 1201}
+- {dest: 4713, max_delay: 5.059225150656269e-06, min_delay: 4.599295591505699e-06,
+  src: 3191}
+- {dest: 4714, max_delay: 5.8460875124588516e-06, min_delay: 5.314625011326229e-06,
+  src: 3191}
+- {dest: 4713, max_delay: 5.682579011666276e-06, min_delay: 5.165980919696614e-06,
+  src: 3355}
+- {dest: 4714, max_delay: 2.6242040644605735e-06, min_delay: 2.3856400586005213e-06,
+  src: 3355}
+- {dest: 4713, max_delay: 6.852194650292039e-06, min_delay: 6.2292678639018536e-06,
+  src: 100}
+- {dest: 4714, max_delay: 5.817653360406233e-06, min_delay: 5.2887757821874845e-06,
+  src: 100}
+- {dest: 4713, max_delay: 9.734330333621465e-06, min_delay: 8.84939121238315e-06,
+  src: 960}
+- {dest: 4714, max_delay: 7.803367253444676e-06, min_delay: 7.093970230404251e-06,
+  src: 960}
+- {dest: 4713, max_delay: 5.231117736579222e-06, min_delay: 4.755561578708384e-06,
+  src: 2904}
+- {dest: 4714, max_delay: 3.768103467100356e-06, min_delay: 3.425548606454869e-06,
+  src: 2904}
+- {dest: 4713, max_delay: 4.204408316008513e-06, min_delay: 3.822189378189557e-06,
+  src: 978}
+- {dest: 4714, max_delay: 5.445383777739584e-06, min_delay: 4.950348888854167e-06,
+  src: 978}
+- {dest: 4713, max_delay: 4.9412120244211285e-06, min_delay: 4.492010931291935e-06,
+  src: 3862}
+- {dest: 4714, max_delay: 1.8849321167301572e-06, min_delay: 1.7135746515728702e-06,
+  src: 3862}
+- {dest: 4713, max_delay: 8.453146278944908e-06, min_delay: 7.684678435404462e-06,
+  src: 1208}
+- {dest: 4714, max_delay: 5.122106136453518e-06, min_delay: 4.656460124048653e-06,
+  src: 1208}
+- {dest: 4713, max_delay: 5.770712036214172e-06, min_delay: 5.2461018511037925e-06,
+  src: 1428}
+- {dest: 4714, max_delay: 2.504758643399587e-06, min_delay: 2.2770533121814427e-06,
+  src: 1428}
+- {dest: 4713, max_delay: 8.379408448996927e-06, min_delay: 7.617644044542662e-06,
+  src: 3948}
+- {dest: 4714, max_delay: 5.098854434013352e-06, min_delay: 4.635322212739411e-06,
+  src: 3948}
+- {dest: 4713, max_delay: 2.123130558102899e-06, min_delay: 1.9301186891844536e-06,
+  src: 3019}
+- {dest: 4714, max_delay: 2.0643002002637285e-06, min_delay: 1.8766365456942988e-06,
+  src: 3019}
+- {dest: 4713, max_delay: 3.504341448220562e-06, min_delay: 3.1857649529277835e-06,
+  src: 761}
+- {dest: 4714, max_delay: 4.524334462239596e-06, min_delay: 4.113031329308724e-06,
+  src: 761}
+- {dest: 4713, max_delay: 3.997471549254508e-06, min_delay: 3.6340650447768257e-06,
+  src: 31}
+- {dest: 4714, max_delay: 3.0783624167199637e-06, min_delay: 2.7985112879272397e-06,
+  src: 31}
+- {dest: 4713, max_delay: 9.71382997189776e-06, min_delay: 8.830754519907054e-06,
+  src: 3792}
+- {dest: 4714, max_delay: 6.360827510056603e-06, min_delay: 5.782570463687821e-06,
+  src: 3792}
+- {dest: 4713, max_delay: 9.058692111229134e-06, min_delay: 8.23517464657194e-06,
+  src: 3923}
+- {dest: 4714, max_delay: 6.060040763451748e-06, min_delay: 5.509127966774316e-06,
+  src: 3923}
+- {dest: 4713, max_delay: 4.710629588136846e-06, min_delay: 4.28239053466986e-06,
+  src: 1174}
+- {dest: 4714, max_delay: 1.7722469202916454e-06, min_delay: 1.611133563901496e-06,
+  src: 1174}
+- {dest: 4713, max_delay: 5.441408586367911e-06, min_delay: 4.946735078516283e-06,
+  src: 1210}
+- {dest: 4714, max_delay: 2.9882768572989582e-06, min_delay: 2.716615324817235e-06,
+  src: 1210}
+- {dest: 4713, max_delay: 3.8215509632066905e-06, min_delay: 3.4741372392788094e-06,
+  src: 4568}
+- {dest: 4714, max_delay: 2.8247988915374415e-06, min_delay: 2.567998992306765e-06,
+  src: 4568}
+- {dest: 4713, max_delay: 4.595703116620762e-06, min_delay: 4.177911924200693e-06,
+  src: 565}
+- {dest: 4714, max_delay: 6.255937153020217e-06, min_delay: 5.6872155936547426e-06,
+  src: 565}
+- {dest: 4713, max_delay: 9.798609393041825e-06, min_delay: 8.907826720947113e-06,
+  src: 2225}
+- {dest: 4714, max_delay: 6.42920359782553e-06, min_delay: 5.844730543477754e-06,
+  src: 2225}
+- {dest: 4713, max_delay: 6.600010125719331e-07, min_delay: 6.000009205199391e-07,
+  src: 955}
+- {dest: 4714, max_delay: 3.6864009229508865e-06, min_delay: 3.3512735663189876e-06,
+  src: 955}
+- {dest: 4713, max_delay: 2.8463849214123604e-06, min_delay: 2.5876226558294186e-06,
+  src: 3950}
+- {dest: 4714, max_delay: 3.2698798176737577e-06, min_delay: 2.9726180160670527e-06,
+  src: 3950}
+- {dest: 4713, max_delay: 1.5460765588448133e-06, min_delay: 1.4055241444043757e-06,
+  src: 37}
+- {dest: 4714, max_delay: 3.5703198800308126e-06, min_delay: 3.245745345482557e-06,
+  src: 37}
+- {dest: 4713, max_delay: 1.9229295284740736e-06, min_delay: 1.7481177531582488e-06,
+  src: 1203}
+- {dest: 4714, max_delay: 2.7900836946569496e-06, min_delay: 2.5364397224154085e-06,
+  src: 1203}
+- {dest: 4713, max_delay: 7.904737135883757e-06, min_delay: 7.186124668985234e-06,
+  src: 968}
+- {dest: 4714, max_delay: 4.5580343334579765e-06, min_delay: 4.1436675758708875e-06,
+  src: 968}
+- {dest: 4713, max_delay: 2.719830689847633e-06, min_delay: 2.472573354406939e-06,
+  src: 3869}
+- {dest: 4714, max_delay: 9.42182384945065e-07, min_delay: 8.5652944085915e-07, src: 3869}
+- {dest: 4713, max_delay: 3.4253279867328594e-06, min_delay: 3.1139345333935084e-06,
+  src: 1177}
+- {dest: 4714, max_delay: 4.940210258932267e-06, min_delay: 4.49110023539297e-06,
+  src: 1177}
+- {dest: 4713, max_delay: 8.678880739219237e-06, min_delay: 7.889891581108398e-06,
+  src: 1298}
+- {dest: 4714, max_delay: 5.416903455009754e-06, min_delay: 4.924457686372503e-06,
+  src: 1298}
+- {dest: 4713, max_delay: 5.171291577544143e-06, min_delay: 4.701174161403766e-06,
+  src: 2242}
+- {dest: 4714, max_delay: 1.8113648949032137e-06, min_delay: 1.6466953590029217e-06,
+  src: 2242}
+- {dest: 4713, max_delay: 7.032681048248588e-06, min_delay: 6.393346407498717e-06,
+  src: 3861}
+- {dest: 4714, max_delay: 5.869483557756826e-06, min_delay: 5.3358941434152965e-06,
+  src: 3861}
+- {dest: 4713, max_delay: 5.055127803888257e-06, min_delay: 4.595570730807506e-06,
+  src: 3928}
+- {dest: 4714, max_delay: 2.2314942499297575e-06, min_delay: 2.0286311362997796e-06,
+  src: 3928}
+- {dest: 4713, max_delay: 7.650677522432097e-06, min_delay: 6.955161384029178e-06,
+  src: 956}
+- {dest: 4714, max_delay: 4.711304836298831e-06, min_delay: 4.283004396635301e-06,
+  src: 956}
+- {dest: 4713, max_delay: 4.591275325500412e-06, min_delay: 4.17388665954583e-06,
+  src: 933}
+- {dest: 4714, max_delay: 4.218549805130003e-06, min_delay: 3.835045277390912e-06,
+  src: 933}
+- {dest: 4713, max_delay: 5.942818695839386e-06, min_delay: 5.402562450763078e-06,
+  src: 3953}
+- {dest: 4714, max_delay: 4.4087271935058046e-06, min_delay: 4.007933812278004e-06,
+  src: 3953}
+- {dest: 4713, max_delay: 4.888018483569345e-06, min_delay: 4.443653166881223e-06,
+  src: 3860}
+- {dest: 4714, max_delay: 3.2627270796837227e-06, min_delay: 2.9661155269852023e-06,
+  src: 3860}
+- {dest: 4713, max_delay: 5.968219144943676e-06, min_delay: 5.425653768130615e-06,
+  src: 2266}
+- {dest: 4714, max_delay: 2.579468423138913e-06, min_delay: 2.344971293762648e-06,
+  src: 2266}
+- {dest: 4713, max_delay: 8.72515106356075e-06, min_delay: 7.931955512327954e-06,
+  src: 2161}
+- {dest: 4714, max_delay: 5.702661674412037e-06, min_delay: 5.1842378858291245e-06,
+  src: 2161}
+- {dest: 4713, max_delay: 5.102147666978241e-06, min_delay: 4.6383160608893096e-06,
+  src: 3249}
+- {dest: 4714, max_delay: 2.680859124820892e-06, min_delay: 2.4371446589280833e-06,
+  src: 3249}
+- {dest: 4713, max_delay: 3.5426831966196885e-06, min_delay: 3.2206210878360805e-06,
+  src: 941}
+- {dest: 4714, max_delay: 3.414350360789686e-06, min_delay: 3.103954873445169e-06,
+  src: 941}
+- {dest: 4713, max_delay: 6.531869858205239e-06, min_delay: 5.9380635074593085e-06,
+  src: 2872}
+- {dest: 4714, max_delay: 5.1539594475630695e-06, min_delay: 4.6854176796027905e-06,
+  src: 2872}
+- {dest: 4713, max_delay: 5.0314000680299575e-06, min_delay: 4.574000061845416e-06,
+  src: 2254}
+- {dest: 4714, max_delay: 6.158142489483353e-06, min_delay: 5.598311354075775e-06,
+  src: 2254}
+- {dest: 4713, max_delay: 2.7781296898753587e-06, min_delay: 2.525572445341235e-06,
+  src: 3090}
+- {dest: 4714, max_delay: 3.5795578800581138e-06, min_delay: 3.254143527325558e-06,
+  src: 3090}
+- {dest: 4713, max_delay: 9.51032858065931e-06, min_delay: 8.645753255144827e-06,
+  src: 3378}
+- {dest: 4714, max_delay: 6.863479913133895e-06, min_delay: 6.239527193758086e-06,
+  src: 3378}
+- {dest: 4713, max_delay: 3.3517416759593725e-06, min_delay: 3.0470378872357933e-06,
+  src: 4509}
+- {dest: 4714, max_delay: 1.0774712701653868e-06, min_delay: 9.79519336513988e-07,
+  src: 4509}
+- {dest: 4713, max_delay: 9.255123601271688e-06, min_delay: 8.413748728428807e-06,
+  src: 136}
+- {dest: 4714, max_delay: 7.73280134368551e-06, min_delay: 7.0298194033504635e-06,
+  src: 136}
+- {dest: 4713, max_delay: 7.5353550148919735e-06, min_delay: 6.850322740810885e-06,
+  src: 81}
+- {dest: 4714, max_delay: 4.1894752095412435e-06, min_delay: 3.808613826855676e-06,
+  src: 81}
+- {dest: 4713, max_delay: 4.406802376267143e-06, min_delay: 4.006183978424676e-06,
+  src: 1200}
+- {dest: 4714, max_delay: 1.6723438789728974e-06, min_delay: 1.5203126172480885e-06,
+  src: 1200}
+- {dest: 4713, max_delay: 4.0858813929731405e-06, min_delay: 3.714437629975582e-06,
+  src: 235}
+- {dest: 4714, max_delay: 5.765732740746359e-06, min_delay: 5.241575218860327e-06,
+  src: 235}
+- {dest: 4713, max_delay: 1.9693213643346787e-06, min_delay: 1.7902921493951625e-06,
+  src: 2271}
+- {dest: 4714, max_delay: 2.4713438507322176e-06, min_delay: 2.24667622793838e-06,
+  src: 2271}
+- {dest: 4713, max_delay: 8.096598852558735e-06, min_delay: 7.360544411417032e-06,
+  src: 20}
+- {dest: 4714, max_delay: 4.726222255431923e-06, min_delay: 4.296565686756294e-06,
+  src: 20}
+- {dest: 4713, max_delay: 9.136402010772275e-06, min_delay: 8.305820009792977e-06,
+  src: 3854}
+- {dest: 4714, max_delay: 5.864607483272997e-06, min_delay: 5.331461348429997e-06,
+  src: 3854}
+- {dest: 4713, max_delay: 6.315978334701866e-06, min_delay: 5.741798486092605e-06,
+  src: 3150}
+- {dest: 4714, max_delay: 3.0211293230310496e-06, min_delay: 2.7464812027554997e-06,
+  src: 3150}
+- {dest: 4713, max_delay: 5.0888053646701825e-06, min_delay: 4.626186695154711e-06,
+  src: 4111}
+- {dest: 4714, max_delay: 5.760674552134518e-06, min_delay: 5.236976865576835e-06,
+  src: 4111}
+- {dest: 4713, max_delay: 4.001222464467616e-06, min_delay: 3.637474967697832e-06,
+  src: 2166}
+- {dest: 4714, max_delay: 3.597590702984257e-06, min_delay: 3.270537002712961e-06,
+  src: 2166}
+- {dest: 4713, max_delay: 5.988034357920353e-06, min_delay: 5.443667598109412e-06,
+  src: 92}
+- {dest: 4714, max_delay: 2.650724520782896e-06, min_delay: 2.409749564348087e-06,
+  src: 92}
+- {dest: 4713, max_delay: 6.94677894274555e-06, min_delay: 6.315253584314136e-06,
+  src: 1951}
+- {dest: 4714, max_delay: 4.291467716962117e-06, min_delay: 3.90133428814738e-06,
+  src: 1951}
+- {dest: 4713, max_delay: 8.331101379758221e-06, min_delay: 7.573728527052928e-06,
+  src: 165}
+- {dest: 4714, max_delay: 5.025054505185478e-06, min_delay: 4.5682313683504345e-06,
+  src: 165}
+- {dest: 4713, max_delay: 1.2470119520194841e-06, min_delay: 1.133647229108622e-06,
+  src: 953}
+- {dest: 4714, max_delay: 3.415143880305534e-06, min_delay: 3.104676254823213e-06,
+  src: 953}
+- {dest: 4713, max_delay: 3.1910118099230135e-06, min_delay: 2.9009198272027395e-06,
+  src: 950}
+- {dest: 4714, max_delay: 3.591417000677301e-06, min_delay: 3.2649245460702734e-06,
+  src: 950}
+- {dest: 4713, max_delay: 5.68147414988155e-06, min_delay: 5.164976499892319e-06,
+  src: 1900}
+- {dest: 4714, max_delay: 6.235838072292592e-06, min_delay: 5.668943702084174e-06,
+  src: 1900}
+- {dest: 4713, max_delay: 4.0576783232839826e-06, min_delay: 3.6887984757127115e-06,
+  src: 86}
+- {dest: 4714, max_delay: 2.575052674658312e-06, min_delay: 2.340956976962102e-06,
+  src: 86}
+- {dest: 4713, max_delay: 3.971936028090985e-06, min_delay: 3.6108509346281682e-06,
+  src: 15}
+- {dest: 4714, max_delay: 5.010948977423044e-06, min_delay: 4.555408161293676e-06,
+  src: 15}
+- {dest: 4713, max_delay: 2.3267767992090224e-06, min_delay: 2.1152516356445657e-06,
+  src: 3857}
+- {dest: 4714, max_delay: 2.873152059369872e-06, min_delay: 2.6119564176089743e-06,
+  src: 3857}
+- {dest: 4713, max_delay: 7.098382930959077e-06, min_delay: 6.453075391780979e-06,
+  src: 964}
+- {dest: 4714, max_delay: 5.952348388322246e-06, min_delay: 5.411225807565678e-06,
+  src: 964}
+- {dest: 4713, max_delay: 5.9203157440657e-06, min_delay: 5.38210522187791e-06, src: 3012}
+- {dest: 4714, max_delay: 2.7072655912699656e-06, min_delay: 2.4611505375181507e-06,
+  src: 3012}
+- {dest: 4713, max_delay: 1.0167679699479135e-05, min_delay: 9.243345181344668e-06,
+  src: 957}
+- {dest: 4714, max_delay: 8.295963061753927e-06, min_delay: 7.541784601594479e-06,
+  src: 957}
+- {dest: 4713, max_delay: 8.506442658918007e-06, min_delay: 7.73312968992546e-06,
+  src: 1180}
+- {dest: 4714, max_delay: 6.450696425254958e-06, min_delay: 5.864269477504507e-06,
+  src: 1180}
+- {dest: 4713, max_delay: 1.3303874587916427e-06, min_delay: 1.209443144356039e-06,
+  src: 1197}
+- {dest: 4714, max_delay: 2.145901147784223e-06, min_delay: 1.9508192252583846e-06,
+  src: 1197}
+- {dest: 4713, max_delay: 6.8653880216018915e-06, min_delay: 6.241261837819901e-06,
+  src: 3855}
+- {dest: 4714, max_delay: 6.327443862663919e-06, min_delay: 5.752221693330835e-06,
+  src: 3855}
+- {dest: 4713, max_delay: 6.1773069164786145e-06, min_delay: 5.615733560435104e-06,
+  src: 3912}
+- {dest: 4714, max_delay: 5.1852723773708295e-06, min_delay: 4.713883979428027e-06,
+  src: 3912}
+- {dest: 4713, max_delay: 8.915221660387762e-06, min_delay: 8.104746963988874e-06,
+  src: 2800}
+- {dest: 4714, max_delay: 5.6530122372985005e-06, min_delay: 5.139102033907728e-06,
+  src: 2800}
+- {dest: 4713, max_delay: 2.8622966384718914e-06, min_delay: 2.602087853156265e-06,
+  src: 2227}
+- {dest: 4714, max_delay: 2.860577623037927e-06, min_delay: 2.600525111852661e-06,
+  src: 2227}
+- {dest: 4713, max_delay: 3.6350678184161025e-06, min_delay: 3.304607107651002e-06,
+  src: 1162}
+- {dest: 4714, max_delay: 4.893760571034245e-06, min_delay: 4.448873246394769e-06,
+  src: 1162}
+- {dest: 4713, max_delay: 7.882697228800706e-06, min_delay: 7.166088389818823e-06,
+  src: 1000}
+- {dest: 4714, max_delay: 4.555355715752422e-06, min_delay: 4.141232468865838e-06,
+  src: 1000}
+- {dest: 4713, max_delay: 6.261859879677592e-06, min_delay: 5.692599890615993e-06,
+  src: 3934}
+- {dest: 4714, max_delay: 5.2442932327250025e-06, min_delay: 4.767539302477275e-06,
+  src: 3934}
+- {dest: 4713, max_delay: 7.014024825675824e-06, min_delay: 6.37638620515984e-06,
+  src: 2016}
+- {dest: 4714, max_delay: 4.846475752456071e-06, min_delay: 4.405887047687337e-06,
+  src: 2016}
+- {dest: 4713, max_delay: 2.758480467762305e-06, min_delay: 2.50770951614755e-06,
+  src: 4038}
+- {dest: 4714, max_delay: 3.5075230410150225e-06, min_delay: 3.1886573100136567e-06,
+  src: 4038}
+- {dest: 4713, max_delay: 3.340101700580243e-06, min_delay: 3.036456091436584e-06,
+  src: 3939}
+- {dest: 4714, max_delay: 4.519321511416047e-06, min_delay: 4.108474101287316e-06,
+  src: 3939}
+- {dest: 4713, max_delay: 3.8828657732101e-06, min_delay: 3.5298779756455455e-06,
+  src: 3935}
+- {dest: 4714, max_delay: 4.314822464240214e-06, min_delay: 3.922565876582013e-06,
+  src: 3935}
+- {dest: 4713, max_delay: 2.1373799515119013e-06, min_delay: 1.9430726831926375e-06,
+  src: 1902}
+- {dest: 4714, max_delay: 1.7290767058461001e-06, min_delay: 1.5718879144055455e-06,
+  src: 1902}
+- {dest: 4713, max_delay: 5.21809812031438e-06, min_delay: 4.743725563922164e-06,
+  src: 3410}
+- {dest: 4714, max_delay: 2.246075357667495e-06, min_delay: 2.0418866887886316e-06,
+  src: 3410}
+- {dest: 4713, max_delay: 4.4567236043982255e-06, min_delay: 4.051566913089296e-06,
+  src: 230}
+- {dest: 4714, max_delay: 1.070626175240393e-06, min_delay: 9.732965229458118e-07,
+  src: 230}
+- {dest: 4713, max_delay: 7.449447437850702e-06, min_delay: 6.772224943500638e-06,
+  src: 1073}
+- {dest: 4714, max_delay: 4.176308848428492e-06, min_delay: 3.7966444076622655e-06,
+  src: 1073}
+- {dest: 4713, max_delay: 8.432227185571179e-06, min_delay: 7.66566107779198e-06,
+  src: 1219}
+- {dest: 4714, max_delay: 5.663768451327446e-06, min_delay: 5.148880410297678e-06,
+  src: 1219}
+- {dest: 4713, max_delay: 2.9828483158790932e-06, min_delay: 2.711680287162812e-06,
+  src: 1209}
+- {dest: 4714, max_delay: 3.5141729936728626e-06, min_delay: 3.194702721520784e-06,
+  src: 1209}
+- {dest: 4713, max_delay: 6.77728654043409e-06, min_delay: 6.161169582212809e-06,
+  src: 1181}
+- {dest: 4714, max_delay: 3.4033821776386433e-06, min_delay: 3.093983797853312e-06,
+  src: 1181}
+- {dest: 4713, max_delay: 8.85041583868688e-06, min_delay: 8.045832580624435e-06,
+  src: 4214}
+- {dest: 4714, max_delay: 5.714857600672662e-06, min_delay: 5.195325091520602e-06,
+  src: 4214}
+- {dest: 4713, max_delay: 7.74572216945406e-06, min_delay: 7.0415656085946e-06, src: 2012}
+- {dest: 4714, max_delay: 4.966022013212709e-06, min_delay: 4.514565466557009e-06,
+  src: 2012}
+- {dest: 4713, max_delay: 3.0541817696759905e-06, min_delay: 2.7765288815236278e-06,
+  src: 3866}
+- {dest: 4714, max_delay: 2.1586586537948693e-06, min_delay: 1.9624169579953358e-06,
+  src: 3866}
+- {dest: 4713, max_delay: 3.747654114903012e-06, min_delay: 3.4069582862754655e-06,
+  src: 1205}
+- {dest: 4714, max_delay: 1.041798690328138e-06, min_delay: 9.470897184801256e-07,
+  src: 1205}
+- {dest: 4713, max_delay: 8.070685838052373e-07, min_delay: 7.336987125502157e-07,
+  src: 336}
+- {dest: 4714, max_delay: 2.6849689559142893e-06, min_delay: 2.4408808690129903e-06,
+  src: 336}
+- {dest: 4715, max_delay: 2.386504130372504e-06, min_delay: 2.169549209429549e-06,
+  src: 4716}
+- {dest: 4715, max_delay: 7.109556132396203e-06, min_delay: 6.463232847632912e-06,
+  src: 4717}
+- {dest: 4716, max_delay: 9.50572204186411e-06, min_delay: 8.641565492603736e-06,
+  src: 3492}
+- {dest: 4717, max_delay: 4.498754103209007e-06, min_delay: 4.089776457462734e-06,
+  src: 3492}
+- {dest: 4716, max_delay: 6.81079422438416e-06, min_delay: 6.191631113076509e-06,
+  src: 245}
+- {dest: 4717, max_delay: 2.9008537035427274e-06, min_delay: 2.6371397304933887e-06,
+  src: 245}
+- {dest: 4716, max_delay: 6.289805613952893e-06, min_delay: 5.7180051035935386e-06,
+  src: 1198}
+- {dest: 4717, max_delay: 6.905943139004197e-06, min_delay: 6.278130126367452e-06,
+  src: 1198}
+- {dest: 4716, max_delay: 5.702785572780928e-06, min_delay: 5.184350520709935e-06,
+  src: 2597}
+- {dest: 4717, max_delay: 1.0476554931082457e-06, min_delay: 9.524140846438597e-07,
+  src: 2597}
+- {dest: 4716, max_delay: 8.496360789295539e-06, min_delay: 7.723964353905035e-06,
+  src: 3868}
+- {dest: 4717, max_delay: 2.9497861243801193e-06, min_delay: 2.681623749436472e-06,
+  src: 3868}
+- {dest: 4716, max_delay: 2.362367742692112e-06, min_delay: 2.147607038811011e-06,
+  src: 56}
+- {dest: 4717, max_delay: 5.955646491073275e-06, min_delay: 5.414224082793886e-06,
+  src: 56}
+- {dest: 4716, max_delay: 1.0361526404705107e-05, min_delay: 9.419569458822825e-06,
+  src: 1001}
+- {dest: 4717, max_delay: 5.317123317375192e-06, min_delay: 4.833748470341083e-06,
+  src: 1001}
+- {dest: 4716, max_delay: 3.288160753592094e-06, min_delay: 2.989237048720086e-06,
+  src: 2243}
+- {dest: 4717, max_delay: 4.217779170125738e-06, min_delay: 3.834344700114307e-06,
+  src: 2243}
+- {dest: 4716, max_delay: 6.886584287017923e-06, min_delay: 6.260531170016293e-06,
+  src: 3197}
+- {dest: 4717, max_delay: 6.242663301925566e-06, min_delay: 5.675148456295969e-06,
+  src: 3197}
+- {dest: 4716, max_delay: 7.795806456175696e-06, min_delay: 7.087096778341542e-06,
+  src: 82}
+- {dest: 4717, max_delay: 3.289608250057105e-06, min_delay: 2.9905529545973683e-06,
+  src: 82}
+- {dest: 4716, max_delay: 1.0223600171137277e-05, min_delay: 9.294181973761161e-06,
+  src: 2279}
+- {dest: 4717, max_delay: 4.995413004745649e-06, min_delay: 4.541284549768772e-06,
+  src: 2279}
+- {dest: 4716, max_delay: 9.144008665194782e-06, min_delay: 8.312735150177075e-06,
+  src: 999}
+- {dest: 4717, max_delay: 5.207536784777494e-06, min_delay: 4.734124349797722e-06,
+  src: 999}
+- {dest: 4716, max_delay: 1.4846635841562255e-06, min_delay: 1.3496941674147504e-06,
+  src: 4502}
+- {dest: 4717, max_delay: 5.6122102542384825e-06, min_delay: 5.102009322034984e-06,
+  src: 4502}
+- {dest: 4716, max_delay: 8.643870562866143e-06, min_delay: 7.85806414806013e-06,
+  src: 105}
+- {dest: 4717, max_delay: 6.080457633141739e-06, min_delay: 5.52768875740158e-06,
+  src: 105}
+- {dest: 4716, max_delay: 3.0167883758971654e-06, min_delay: 2.742534887179241e-06,
+  src: 961}
+- {dest: 4717, max_delay: 5.951590461431863e-06, min_delay: 5.410536783119876e-06,
+  src: 961}
+- {dest: 4716, max_delay: 2.622795623071128e-06, min_delay: 2.384359657337389e-06,
+  src: 2905}
+- {dest: 4717, max_delay: 4.011196092918146e-06, min_delay: 3.64654190265286e-06,
+  src: 2905}
+- {dest: 4716, max_delay: 9.078267896464844e-06, min_delay: 8.252970814968039e-06,
+  src: 977}
+- {dest: 4717, max_delay: 2.4640832083677757e-06, min_delay: 2.240075643970705e-06,
+  src: 977}
+- {dest: 4716, max_delay: 8.68302544559189e-06, min_delay: 7.893659495992627e-06,
+  src: 1206}
+- {dest: 4717, max_delay: 3.136112342045322e-06, min_delay: 2.851011220041202e-06,
+  src: 1206}
+- {dest: 4716, max_delay: 1.0782158514324079e-05, min_delay: 9.801962285749163e-06,
+  src: 1430}
+- {dest: 4717, max_delay: 5.9208455660430314e-06, min_delay: 5.3825868782209375e-06,
+  src: 1430}
+- {dest: 4716, max_delay: 1.5061239222832385e-06, min_delay: 1.369203565712035e-06,
+  src: 1591}
+- {dest: 4717, max_delay: 5.246670698546057e-06, min_delay: 4.76970063504187e-06,
+  src: 1591}
+- {dest: 4716, max_delay: 2.307375652327813e-06, min_delay: 2.097614229388921e-06,
+  src: 3865}
+- {dest: 4717, max_delay: 4.307989644925487e-06, min_delay: 3.916354222659533e-06,
+  src: 3865}
+- {dest: 4716, max_delay: 9.56979327524754e-06, min_delay: 8.699812068406856e-06,
+  src: 3955}
+- {dest: 4717, max_delay: 3.1632472260604185e-06, min_delay: 2.8756792964185623e-06,
+  src: 3955}
+- {dest: 4716, max_delay: 5.711715474090976e-06, min_delay: 5.1924686128099785e-06,
+  src: 936}
+- {dest: 4717, max_delay: 1.130490558648958e-06, min_delay: 1.027718689680871e-06,
+  src: 936}
+- {dest: 4716, max_delay: 4.918574785277541e-06, min_delay: 4.471431622979582e-06,
+  src: 3992}
+- {dest: 4717, max_delay: 1.7360981642265984e-06, min_delay: 1.5782710583878166e-06,
+  src: 3992}
+- {dest: 4716, max_delay: 8.095315915080553e-06, min_delay: 7.359378104618684e-06,
+  src: 3020}
+- {dest: 4717, max_delay: 4.034876863734682e-06, min_delay: 3.6680698761224383e-06,
+  src: 3020}
+- {dest: 4716, max_delay: 8.079076020411534e-06, min_delay: 7.344614564010484e-06,
+  src: 3938}
+- {dest: 4717, max_delay: 2.573165437545715e-06, min_delay: 2.339241306859741e-06,
+  src: 3938}
+- {dest: 4716, max_delay: 1.050558136940554e-05, min_delay: 9.5505285176414e-06, src: 2281}
+- {dest: 4717, max_delay: 5.780166195212696e-06, min_delay: 5.254696541102451e-06,
+  src: 2281}
+- {dest: 4716, max_delay: 7.571951352475143e-06, min_delay: 6.8835921386137665e-06,
+  src: 3952}
+- {dest: 4717, max_delay: 2.400034569563661e-06, min_delay: 2.181849608694237e-06,
+  src: 3952}
+- {dest: 4716, max_delay: 9.00185788579393e-06, min_delay: 8.183507168903573e-06,
+  src: 4567}
+- {dest: 4717, max_delay: 3.561120054274231e-06, min_delay: 3.237381867522028e-06,
+  src: 4567}
+- {dest: 4716, max_delay: 6.112801725136681e-06, min_delay: 5.5570924773969826e-06,
+  src: 995}
+- {dest: 4717, max_delay: 2.6645943277380072e-06, min_delay: 2.422358479761825e-06,
+  src: 995}
+- {dest: 4716, max_delay: 5.506216677767073e-06, min_delay: 5.005651525242794e-06,
+  src: 564}
+- {dest: 4717, max_delay: 1.6246364897492224e-06, min_delay: 1.4769422634083841e-06,
+  src: 564}
+- {dest: 4716, max_delay: 8.738294807524301e-06, min_delay: 7.943904370476637e-06,
+  src: 2224}
+- {dest: 4717, max_delay: 2.2279861621877776e-06, min_delay: 2.0254419656252524e-06,
+  src: 2224}
+- {dest: 4716, max_delay: 3.8039355784818815e-06, min_delay: 3.4581232531653467e-06,
+  src: 3852}
+- {dest: 4717, max_delay: 7.445830535516825e-06, min_delay: 6.768936850469841e-06,
+  src: 3852}
+- {dest: 4716, max_delay: 4.602888460064355e-06, min_delay: 4.184444054603959e-06,
+  src: 4202}
+- {dest: 4717, max_delay: 3.3896053714383483e-06, min_delay: 3.0814594285803165e-06,
+  src: 4202}
+- {dest: 4716, max_delay: 6.497599418935779e-06, min_delay: 5.90690856266889e-06,
+  src: 3863}
+- {dest: 4717, max_delay: 2.3820963915822348e-07, min_delay: 2.165542174165668e-07,
+  src: 3863}
+- {dest: 4716, max_delay: 1.129820081287217e-06, min_delay: 1.027109164806561e-06,
+  src: 1176}
+- {dest: 4717, max_delay: 5.779182511895854e-06, min_delay: 5.2538022835416855e-06,
+  src: 1176}
+- {dest: 4716, max_delay: 9.120032314664617e-06, min_delay: 8.290938467876925e-06,
+  src: 1306}
+- {dest: 4717, max_delay: 2.620547182977192e-06, min_delay: 2.3823156208883563e-06,
+  src: 1306}
+- {dest: 4716, max_delay: 7.3543314459750405e-06, min_delay: 6.68575585997731e-06,
+  src: 2256}
+- {dest: 4717, max_delay: 2.5644958923499873e-06, min_delay: 2.3313599021363522e-06,
+  src: 2256}
+- {dest: 4716, max_delay: 9.216997084049284e-06, min_delay: 8.379088258226621e-06,
+  src: 1166}
+- {dest: 4717, max_delay: 4.508526893146328e-06, min_delay: 4.098660811951207e-06,
+  src: 1166}
+- {dest: 4716, max_delay: 1.4198665114414601e-06, min_delay: 1.2907877376740547e-06,
+  src: 1594}
+- {dest: 4717, max_delay: 5.4342858820436265e-06, min_delay: 4.940259892766933e-06,
+  src: 1594}
+- {dest: 4716, max_delay: 2.213729766569708e-06, min_delay: 2.012481605972462e-06,
+  src: 61}
+- {dest: 4717, max_delay: 5.533448639064524e-06, min_delay: 5.030407853695022e-06,
+  src: 61}
+- {dest: 4716, max_delay: 1.8601630438112253e-06, min_delay: 1.6910573125556595e-06,
+  src: 935}
+- {dest: 4717, max_delay: 5.650859919094788e-06, min_delay: 5.137145380995261e-06,
+  src: 935}
+- {dest: 4716, max_delay: 7.607485137391492e-06, min_delay: 6.915895579446811e-06,
+  src: 930}
+- {dest: 4717, max_delay: 1.1086683715788405e-06, min_delay: 1.0078803377989459e-06,
+  src: 930}
+- {dest: 4716, max_delay: 3.7238891486208752e-06, min_delay: 3.385353771473523e-06,
+  src: 1185}
+- {dest: 4717, max_delay: 4.9055964842049824e-06, min_delay: 4.459633167459075e-06,
+  src: 1185}
+- {dest: 4716, max_delay: 1.0034190315312459e-05, min_delay: 9.1219911957386e-06,
+  src: 67}
+- {dest: 4717, max_delay: 6.18155797355871e-06, min_delay: 5.619598157780645e-06,
+  src: 67}
+- {dest: 4716, max_delay: 7.653123700023368e-07, min_delay: 6.957385181839426e-07,
+  src: 3248}
+- {dest: 4717, max_delay: 5.957533141414182e-06, min_delay: 5.415939219467439e-06,
+  src: 3248}
+- {dest: 4716, max_delay: 6.888446786933012e-06, min_delay: 6.262224351757284e-06,
+  src: 1204}
+- {dest: 4717, max_delay: 2.4757394480638847e-06, min_delay: 2.2506722255126225e-06,
+  src: 1204}
+- {dest: 4716, max_delay: 7.4416973570717715e-06, min_delay: 6.765179415519792e-06,
+  src: 3893}
+- {dest: 4717, max_delay: 3.3963971389240026e-06, min_delay: 3.087633762658184e-06,
+  src: 3893}
+- {dest: 4716, max_delay: 8.008398442459758e-06, min_delay: 7.280362220417961e-06,
+  src: 958}
+- {dest: 4717, max_delay: 3.944849654602508e-06, min_delay: 3.5862269587295527e-06,
+  src: 958}
+- {dest: 4716, max_delay: 2.953201123486483e-06, min_delay: 2.684728294078621e-06,
+  src: 963}
+- {dest: 4717, max_delay: 3.734360880796819e-06, min_delay: 3.3948735279971082e-06,
+  src: 963}
+- {dest: 4716, max_delay: 9.93236817302636e-06, min_delay: 9.029425611842146e-06,
+  src: 3944}
+- {dest: 4717, max_delay: 5.307335964430279e-06, min_delay: 4.824850876754799e-06,
+  src: 3944}
+- {dest: 4716, max_delay: 7.63011015180443e-06, min_delay: 6.936463774367664e-06,
+  src: 2275}
+- {dest: 4717, max_delay: 2.744377844739351e-06, min_delay: 2.4948889497630463e-06,
+  src: 2275}
+- {dest: 4716, max_delay: 2.50755557889003e-06, min_delay: 2.279595980809118e-06,
+  src: 959}
+- {dest: 4717, max_delay: 4.120681978740556e-06, min_delay: 3.746074526127778e-06,
+  src: 959}
+- {dest: 4716, max_delay: 7.954227540063692e-06, min_delay: 7.231115945512447e-06,
+  src: 3354}
+- {dest: 4717, max_delay: 6.3130220124202784e-06, min_delay: 5.739110920382072e-06,
+  src: 3354}
+- {dest: 4716, max_delay: 6.209412363149855e-06, min_delay: 5.6449203301362315e-06,
+  src: 18}
+- {dest: 4717, max_delay: 5.643208255573091e-06, min_delay: 5.1301893232482645e-06,
+  src: 18}
+- {dest: 4716, max_delay: 9.148070665940335e-07, min_delay: 8.316427878127578e-07,
+  src: 3142}
+- {dest: 4717, max_delay: 6.501731976365656e-06, min_delay: 5.910665433059687e-06,
+  src: 3142}
+- {dest: 4716, max_delay: 9.421465008664217e-06, min_delay: 8.564968189694744e-06,
+  src: 96}
+- {dest: 4717, max_delay: 4.638945497928926e-06, min_delay: 4.217223179935387e-06,
+  src: 96}
+- {dest: 4716, max_delay: 4.612536792303168e-06, min_delay: 4.193215265730153e-06,
+  src: 3062}
+- {dest: 4717, max_delay: 7.3916039624443885e-06, min_delay: 6.719639965858535e-06,
+  src: 3062}
+- {dest: 4716, max_delay: 5.213108373655894e-06, min_delay: 4.7391894305962674e-06,
+  src: 161}
+- {dest: 4717, max_delay: 3.4150430547018117e-06, min_delay: 3.1045845951834652e-06,
+  src: 161}
+- {dest: 4716, max_delay: 5.427671608482956e-06, min_delay: 4.934246916802688e-06,
+  src: 3091}
+- {dest: 4717, max_delay: 1.1946108471693926e-06, min_delay: 1.0860098610630842e-06,
+  src: 3091}
+- {dest: 4716, max_delay: 5.186422824006235e-06, min_delay: 4.714929840005668e-06,
+  src: 4320}
+- {dest: 4717, max_delay: 2.194861658156048e-06, min_delay: 1.995328780141862e-06,
+  src: 4320}
+- {dest: 4716, max_delay: 4.362939361212649e-06, min_delay: 3.966308510193317e-06,
+  src: 379}
+- {dest: 4717, max_delay: 2.608422277535109e-06, min_delay: 2.3712929795773717e-06,
+  src: 379}
+- {dest: 4716, max_delay: 7.410720768607443e-06, min_delay: 6.7370188805522205e-06,
+  src: 4206}
+- {dest: 4717, max_delay: 2.300174382537636e-06, min_delay: 2.09106762048876e-06,
+  src: 4206}
+- {dest: 4716, max_delay: 5.8434446697462606e-06, min_delay: 5.312222427042055e-06,
+  src: 85}
+- {dest: 4717, max_delay: 1.6202088935060164e-06, min_delay: 1.4729171759145604e-06,
+  src: 85}
+- {dest: 4716, max_delay: 7.006902306414415e-06, min_delay: 6.369911187649468e-06,
+  src: 971}
+- {dest: 4717, max_delay: 1.1765462554682149e-06, min_delay: 1.0695875049711045e-06,
+  src: 971}
+- {dest: 4716, max_delay: 6.1173928454658066e-06, min_delay: 5.561266223150733e-06,
+  src: 9}
+- {dest: 4717, max_delay: 7.871649828360826e-06, min_delay: 7.156045298509841e-06,
+  src: 9}
+- {dest: 4716, max_delay: 8.449170154720991e-06, min_delay: 7.681063777019083e-06,
+  src: 1160}
+- {dest: 4717, max_delay: 5.602354733192734e-06, min_delay: 5.09304975744794e-06,
+  src: 1160}
+- {dest: 4716, max_delay: 2.525159628943826e-06, min_delay: 2.2955996626762054e-06,
+  src: 965}
+- {dest: 4717, max_delay: 4.116253268031325e-06, min_delay: 3.742048425483023e-06,
+  src: 965}
+- {dest: 4716, max_delay: 7.527918946123418e-06, min_delay: 6.8435626782940165e-06,
+  src: 4505}
+- {dest: 4717, max_delay: 4.783841271678478e-06, min_delay: 4.348946610616798e-06,
+  src: 4505}
+- {dest: 4716, max_delay: 5.689821458179274e-06, min_delay: 5.172564961981159e-06,
+  src: 3911}
+- {dest: 4717, max_delay: 5.7769767469108815e-06, min_delay: 5.251797042646256e-06,
+  src: 3911}
+- {dest: 4716, max_delay: 7.759494062190563e-06, min_delay: 7.05408551108233e-06,
+  src: 3788}
+- {dest: 4717, max_delay: 4.801919137413164e-06, min_delay: 4.365381034011967e-06,
+  src: 3788}
+- {dest: 4716, max_delay: 6.163681412960597e-06, min_delay: 5.603346739055088e-06,
+  src: 1175}
+- {dest: 4717, max_delay: 3.347553109969342e-06, min_delay: 3.043230099972129e-06,
+  src: 1175}
+- {dest: 4716, max_delay: 7.1455829213643834e-06, min_delay: 6.495984473967622e-06,
+  src: 2283}
+- {dest: 4717, max_delay: 6.107818999368847e-07, min_delay: 5.552562726698953e-07,
+  src: 2283}
+- {dest: 4716, max_delay: 5.788778338960705e-06, min_delay: 5.26252576269155e-06,
+  src: 2264}
+- {dest: 4717, max_delay: 2.0411892826176284e-06, min_delay: 1.8556266205614804e-06,
+  src: 2264}
+- {dest: 4716, max_delay: 3.6986765953392966e-06, min_delay: 3.3624332684902696e-06,
+  src: 1196}
+- {dest: 4717, max_delay: 5.249566103972594e-06, min_delay: 4.772332821793267e-06,
+  src: 1196}
+- {dest: 4716, max_delay: 4.715833382916895e-06, min_delay: 4.287121257197178e-06,
+  src: 1172}
+- {dest: 4717, max_delay: 2.65491643361979e-06, min_delay: 2.4135603941998093e-06,
+  src: 1172}
+- {dest: 4716, max_delay: 2.340192002193659e-06, min_delay: 2.127447274721508e-06,
+  src: 2799}
+- {dest: 4717, max_delay: 5.93068546699945e-06, min_delay: 5.39
